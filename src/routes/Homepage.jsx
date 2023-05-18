@@ -4,31 +4,26 @@ import Heading from '../common/Heading.jsx';
 import Text from '../common/Text.jsx';
 
 function Homepage() {
+	const [pageInfo, setPageInfo] = useState(null);
 
-    const [pageInfo, setPageInfo] = useState(null);
-    
-    useEffect(() => {
-        console.log(INFO);
-        setPageInfo(INFO.homepage);
-    }, []);
+	useEffect(() => {
+		console.log(INFO);
+		setPageInfo(INFO.homepage);
+	}, []);
 
-    
+	return (
+		<>
+			{pageInfo?.title && (
+				<div className='w-full  h-fit '>
+					<Heading text={pageInfo.title} />
+					<Text text={pageInfo.description} />
 
-    return (<>
-    {pageInfo?.title &&
+					<div className='font-extrabold mt-10'>
 
-
-        <div className='max-w-lg m-8 h-fit rounded-3xl '>
-        <Heading text={pageInfo.title} />
-        <Text text={pageInfo.description} />
-
-        <div className="font-extrabold mt-10">
-  <p className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500 justify-center w-full m-auto justify flex content-center">
-    {pageInfo.search}
-  </p>
-</div>
-
-        </div>
+					</div>
+				</div>
+			)}
+		</>
+	);
 }
-    </>)
-}export default Homepage;
+export default Homepage;

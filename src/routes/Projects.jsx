@@ -25,6 +25,15 @@ function Projects() {
 	return (
 		<>
         <div className='text-slate-300 font-bold text-center'>{pageIntro && pageIntro}</div>
+		<ul>
+			{pageInfo?.map((entry, index) => (
+				<li key={entry.title}>
+					<div className='flex flex-col mb-10'> 
+					</div>
+				</li>))}
+
+						
+		</ul>
 			{pageInfo && (
 				<>
 					<div className='flex flex-col justify-between md:m-auto p-10 flex-col m-5 text-slate-300'>
