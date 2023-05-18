@@ -45,7 +45,7 @@ function Navigation() {
 
 	return (
 		<>
-			<nav className='bg-white border-gray-200 dark:bg-gray-900'>
+			<nav className=''>
 				<div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
 					<div className='flex items-center md:order-2 '>
 					<NavButton
@@ -62,7 +62,7 @@ function Navigation() {
 						className={`${
 							!isMobileMenuOpen ? 'show' : 'hidden'
 						}  transition-transform items-center justify-between align-right w-full md:flex md:w-auto md:order-1`}>
-						<ul className='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent md:dark:bg-gray-900 dark:border-gray-700'>
+						<ul className='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent md:dark:bg-transparent dark:border-gray-700'>
 							{navItems.map((link) => (
 								<li key={location.label}>
 									<NavLink link={link}  path={path} />
