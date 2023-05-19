@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons';
 
 function Contact() {
 	return (
-		<div>
+		<div className='flex flex-col min-h-screen justify-center content-center p-auto'>
 			<div className='text-slate-300 text-center mb-10'>
 				I am always open to discussing new projects, creative ideas or
 				opportunities to be part of your visions.

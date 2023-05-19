@@ -12,12 +12,8 @@ function Navigation() {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 	const [navItems] = useState([
 		{
-			label: 'Home',
-			path: '/',
-		},
-		{
 			label: 'About',
-			path: '/about',
+			path: '/',
 		},
 		{
 			label: 'Projects',
@@ -45,7 +41,7 @@ function Navigation() {
 
 	return (
 		<>
-			<nav className=''>
+			<nav className='bg-slate-900 fixed w-screen'>
 				<div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
 					<div className='flex items-center md:order-2 '>
 					<NavButton

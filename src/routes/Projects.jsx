@@ -4,6 +4,7 @@ import pokedex from '../assets/pokedex.png';
 import event from '../assets/event4u.png';
 import fugthuset from '../assets/fugthuset.png';
 import Break from '../common/Break.jsx';
+import Project from '../common/Project.jsx';
 
 function Projects() {
 	const [pageInfo, setPageInfo] = useState(null);
@@ -24,34 +25,21 @@ function Projects() {
 
 	return (
 		<>
-        <div className='text-slate-300 font-bold text-center'>{pageIntro && pageIntro}</div>
+        <div className='text-slate-300 font-bold text-center mt-24'>{pageIntro && pageIntro}</div>
 		<ul>
-			{pageInfo?.map((entry, index) => (
-				<li key={entry.title}>
-					<div className='flex flex-col mb-10'> 
-					</div>
-				</li>))}
+
 
 						
 		</ul>
 			{pageInfo && (
 				<>
-					<div className='flex flex-col justify-between md:m-auto p-10 flex-col m-5 text-slate-300'>
+					<div className='flex flex-col justify-between md:m-auto p-10 flex-col m-5 text-slate-300'><ul>
 						{pageInfo.map((entry, index) => (<div className='p-10'>
-							<div key={entry.title} className='flex flex-col mb-10'>
-								<div className='justify-center text-center w-full font-bold text-lg'>
-									{entry.title}
-								</div>
-								<div className='scale-75'>
-									<img src={entry.img} />
-								</div>
-                                <div>{entry.description}</div>                                <div>{entry.description}</div>
-                                <a href={entry.link}>{entry.linkText}</a>
+							<li className='flex even:flex-row odd:flex-row-reverse'><Project entry={entry} /></li>
+							
 
-							</div>
-                            <Break/>
 						</div>))}
-					</div>
+						</ul></div>
 				</>
 			)}
 		</>

@@ -1,8 +1,7 @@
 function Education({ entry }) {
 	return (
 		<div className="m-auto max-w-lg">
-			{' '}
-			<div className='flex flex-col items-center justify-center font-bold text-lg m-3 color text-slate-300 '>
+			<div className='text-lg m-3 color text-slate-300 '>
 				{entry.title}
 			</div>
             <div className="flex flex-row text-gray-400 w-full">
