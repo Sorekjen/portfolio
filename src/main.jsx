@@ -8,7 +8,6 @@ import Projects from "./routes/Projects.jsx"
 import Contact from "./routes/Contact.jsx"
 
 import './index.css';
-import Toolbox from './routes/Toolbox.jsx';
 
 const router = createHashRouter([
   {
@@ -27,10 +26,6 @@ const router = createHashRouter([
               path: "/contact",
               element: <Contact />,
           },
-          {
-            path: "/toolbox",
-            element: <Toolbox />,
-        },
       ],
   },
 ])

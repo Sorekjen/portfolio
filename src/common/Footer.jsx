@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons';
 
 function Footer() {
 	return (
-		<div>
+		<div className=''>
 
 			<div className='flex flex-row justify-center p-5'>
 				<a

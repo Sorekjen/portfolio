@@ -35,7 +35,7 @@ function About() {
 							that are robust and made with the best practices.
 						</div>
 						<div className='mt-10 bg-blue-500 w-fit rounded'>
-						<button onClick={()=> window.scrollTo(0,1000)} class=' z-10 hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>
+						<button onClick={()=> window.scrollTo(0,900)} class=' z-10 hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>
 							Check me out!
 						</button>
 						</div>

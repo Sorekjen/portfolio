@@ -1,36 +1,35 @@
 import pokedex from '../assets/pokedex.png';
+import event from '../assets/event4u.png';
+import fugthuset from '../assets/fugthuset.png';
+
 import SkillTag from './SkillTag';
 
 export default function Project({ entry }) {
+	const images = [event, pokedex, fugthuset];
 	return (
-		<>
-			<div
-				key={entry.title}
-				className='flex flex-col mb-10'>
-				<div className='justify-center text-center w-full font-bold text-lg'>
+		<li className='flex md:flex-col odd:flex-row-reverse even:flex-row my-10'>
+			<div className='h-full flex flex-col mb-10 px-10'>
+				<div className='text-slate-200 w-full font-medium text-lg'>
 					{entry.title}
 				</div>
-				<div>{entry.description}</div>
-				<div className='flex flex-row justify-center'>
-					{entry.tags.map((tag) => (
-						<SkillTag tag={tag} />
-					))}
+				<div className='leading-normal'>{entry.description}</div>
+				<div className='flex flex-row'>
+					{entry.tags.map((tag, index) => {
+						console.log(tag);
+						return(<div key={index} className='mr-2 mt-2'><SkillTag key={index} text={tag}/></div>)
+				
+					})}
+					
 				</div>
 
-				<div className='mt-10 bg-blue-500 w-fit rounded'>
-					<button
-						href={entry.link}
-						class=' z-10 hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>
-						Check me out!
-					</button>
-				</div>
+
 			</div>
-			<div className='scale-75'>
+			<div className='w-64'>
 				<img
-					className=' rounded-xl opacity-50 hover:transition-all hover:opacity-100 '
-					src={pokedex}
+					className='w-64 max-w-lg border-slate-700 hover:border-slate-400 transition-all hover:transition-all hover:scale-110 border-2 rounded-sm'
+					src={images[entry.logo]}
 				/>
-			</div>
-		</>
+				</div>
+		</li>
 	);
 }
