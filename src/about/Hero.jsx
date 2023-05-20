@@ -11,7 +11,7 @@ export default function(){
             <div className='max-w-lg font-medium'>
                 Studying to become a software engineer at {' '}<a href="https://www.via.dk">VIA</a>{' '}
                 designing and building various digital solutions
-                that are robust and made with the best practices.
+                that are robust and made with the best practices. Where {' '}<a>quality</a>{' '} code that is easy to {' '}<a>read</a>{' '} and {' '}<a>maintain</a>{' '} is the goal.
             </div>
             <div className='mt-10 bg-blue-500 w-fit rounded'>
             <button onClick={()=> window.scrollTo(0,900)} class=' z-10 hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>

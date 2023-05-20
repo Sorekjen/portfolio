@@ -14,7 +14,7 @@ export default function Summary() {
 						Hello! My name is Jakob and I love solving problems. I
 						have a toolbox and mindset that enables me to do
 						anything I set my mind to. I am passionate about always
-						learning something new and sharpening and expanding my
+						learning something new and expanding my
 						toolbox.
 					</p>
 					<p className='mb-2'>

@@ -31,7 +31,7 @@ export default function Skills() {
 			<p>
 				I am proficient in multiple programming paradigms and languages.
 				This versatility allows me to adapt to various project
-				requirements and solve complex coding challenges efficiently.
+				requirements and solve complex coding challenges efficiently. I understand the importance of writing code that is easy to read and maintain and that 10 great lines of code are better than 1000 bad ones.
 			</p>
 			<div className='flex py-3'>
 				{['SOLID', 'JavaScript', 'Java', 'C#'].map((entry, index) => (
@@ -69,8 +69,8 @@ export default function Skills() {
 		// Frontend
 		<div className='py-4'>
 			<p>
-				Specializing in front-end development, I have a strong command
-				of HTML, CSS, and JavaScript. I can create intuitive user
+				I have a strong command
+				of HTML, CSS, and JavaScript. Using various tools I can create intuitive user
 				interfaces and engaging web experiences that prioritize
 				usability and accessibility.
 			</p>
@@ -88,10 +88,9 @@ export default function Skills() {
 		// Backend
 		<div className='py-4'>
 			<p>
-				With a solid foundation in backend development, I excel at
-				building reliable and scalable APIs. I have hands-on experience
+				With a solid foundation in backend development, I can build reliable and scalable APIs. I have hands-on experience
 				in designing and implementing database tiers to ensure efficient
-				data storage and retrieval. My backend systems seamlessly
+				data storage and retrieval. Its important that backend systems seamlessly
 				integrate with front-end components, resulting in cohesive
 				applications.
 			</p>
@@ -136,7 +135,7 @@ export default function Skills() {
 								className='mr-2'
 								key={index}>
 								<a
-									className={`py-2 px-4 block font-normal text-lg cursor-pointer hover:-translate-x-2 hover:transition-all transition-all hover:text-blue-300 ${
+									className={`py-2 px-4 block font-normal text-lg cursor-pointer hover:-translate-x-2 hover:trawansition-all transition-all hover:text-blue-300 ${
 										currentTab === index
 											? 'text-blue-500'
 											: ''

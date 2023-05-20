@@ -10,31 +10,29 @@ export const INFO = {
 		linkedin: 'https://linkedin.com/',
 	},
 
-	homepage: {
-		title: 'Motivated and eager to learn with a strong foundation and a persistent drive to acquire new skills.',
-		search: 'I am currently looking for an internship in the fall of 2023!',
-		description:
-			"Software engineering student taking my bachelor at VIA. I'm committed and sharp in both academics and projects. I love working in a team, with focus on great communication and efficient project management. I thrive on working with new and complex problems and developing quality solutions for them. The software world is constantly evolving and there are too many technologies to count, but with my knowledgde of software systems and passion for learning, I am always ready to dive into something new and produce something elegant. I look forward to being part of a team of skilled colleagues that make modern and reliable software.",
-	},
+	
 
 	about: {
 		intro: "Hi, I'm Jakob!",
-        education: {
-            title: 'Education',
-            entries: [
-                {
-                    title: 'Software Engineer',
-                    place: 'VIA University College',
-                    timeFrame: '2020 - 2024',
-                    description: 'Studying at VIA we work with a wide variety of technologies, platforms and processes that enable us go from a clients requirements to a strong powerful solution that is reliable and made with the best practices that makes the system maintainable and scaleable.',
-        }]},
+		education: {
+			title: 'Education',
+			entries: [
+				{
+					title: 'Software Engineer',
+					place: 'VIA University College',
+					timeFrame: '2020 - 2024',
+					description:
+						'Studying at VIA we work with a wide variety of technologies, platforms and processes that enable us go from a clients requirements to a strong powerful solution that is reliable and made with the best practices that makes the system maintainable and scaleable.',
+				},
+			],
+		},
 		skillsTitle: 'Skills',
 		skills: [
 			{
 				title: 'Languages',
 				entries: [
-                    'JavaScript',
-                    'TypeScript',
+					'JavaScript',
+					'TypeScript',
 					'C#',
 					'Java',
 					'HTML',
@@ -48,9 +46,9 @@ export const INFO = {
 				title: 'Tools',
 				entries: [
 					'Git',
-                    'Github',
+					'Github',
 					'WSL',
-                    'Docker',
+					'Docker',
 					'Visual Studio Code',
 					'IntelliJ, Rider, DataGrip',
 					'Unity',
@@ -62,27 +60,30 @@ export const INFO = {
 					'React',
 					'React Native',
 					'Node.js',
-                    'Tailwind CSS',
+					'Tailwind CSS',
 					'Express.js',
 					'Bootstrap',
-                    'ASP.NET Core',
-                    'Entity Framework Core',
+					'ASP.NET Core',
+					'Entity Framework Core',
 					'Blazor',
-                    'JavaFX',
-                    'Spring Boot',
-                    'Hibernate',
-                    'JUnit',
-                    'Jest',
+					'JavaFX',
+					'Spring Boot',
+					'Hibernate',
+					'JUnit',
+					'Jest',
 				],
 			},
-			{ title: 'Development', entries: [
-                'Agile development', 
-                'Scrum', 
-                'DevObs',
-                'CI/CD',
-                'Kanpan', 
-                'Unified process',
-            ] },
+			{
+				title: 'Development',
+				entries: [
+					'Agile development',
+					'Scrum',
+					'DevObs',
+					'CI/CD',
+					'Kanpan',
+					'Unified process',
+				],
+			},
 		],
 
 		interestTitle: 'What drives me?',
@@ -130,7 +131,8 @@ export const INFO = {
 	projects: [
 		{
 			title: 'Event4U',
-			description:'A social media platform designed to connect people with a shared goal of doing somethign good for the environment. The platform is designed to make it easy to create and join events, and to share your experiences with others. The platform is using a Blazor frontend, a RESTful web API writting in Java and strong backend written in C# with EF core.',
+			description:
+				'A social media platform designed to connect people with a shared goal of doing somethign good for the environment. The platform is designed to make it easy to create and join events, and to share your experiences with others. The platform is using a Blazor frontend, a RESTful web API writting in Java and strong backend written in C# with EF core.',
 			logo: '0',
 			linkText: 'Im working on getting it hosted!',
 			tags: ['C#', 'Blazor', 'Java', 'EF Core', 'RESTful API'],
@@ -139,7 +141,8 @@ export const INFO = {
 
 		{
 			title: 'Pokedex',
-			description:'A Pokedex app that allows you to search and filter pokemon to and view their stats and evolutions. The app is made with React and uses the PokeAPI to fetch data. In addition you can take a quiz and see if you are a true pokemon fan!',
+			description:
+				'A Pokedex app that allows you to search and filter pokemon to and view their stats and evolutions. The app is made with React and uses the PokeAPI to fetch data. In addition you can take a quiz and see if you are a true pokemon fan!',
 			logo: '1',
 			linkText: 'View Project',
 			tags: ['React', 'PokeAPI'],
@@ -148,13 +151,14 @@ export const INFO = {
 
 		{
 			title: 'FugtHuset',
-			description:'A website for a mock company that needs a system to monitor and keep track of their greenhouse plants. The system is a 3 tier system with the frontend built using React, the backend is written using NextJS and typescript and stores the data from the greenhouses in a Prisma relational database. The is backend uses microservices hosted on google cloud hosting and using RESTful API to communicate with the frontend. In addition to this the backend get data from an iot device where we wrote the software in C on an ATMEGA microcontroller.',
+			description:
+				'A website for a mock company that needs a system to monitor and keep track of their greenhouse plants. The system is a 3 tier system with the frontend built using React, the backend is written using NextJS and typescript and stores the data from the greenhouses in a Prisma relational database. The is backend uses microservices hosted on google cloud hosting and using RESTful API to communicate with the frontend. In addition to this the backend get data from an iot device where we wrote the software in C on an ATMEGA microcontroller.',
 			logo: '2',
 			linkText: 'View Project',
 			tags: ['React', 'ViteJS', 'Prisma', 'RESTful API', 'C'],
 			link: 'https://github.com',
 		},
 	],
-    projectIntro: 'Here are some of my projects! I am working on getting more of my projects hosted and displayed here!',
-
+	projectIntro:
+		'Here are some of my projects! I am working on getting more of my projects hosted and displayed here!',
 };
