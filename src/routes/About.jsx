@@ -13,6 +13,7 @@ import Personal from '../about/Personal.jsx';
 import Current from '../about/Current.jsx';
 import { useInView } from 'react-intersection-observer';
 import SectionWrapper from '../about/SectionWrapper.jsx';
+import HeroWrapper from '../about/HeroWrapper.jsx';
 
 function About() {
 	const [pageInfo, setPageInfo] = useState(null);
@@ -27,9 +28,9 @@ function About() {
 			{pageInfo?.education?.title && (
 				<>
 					<section className='min-h-screen flex flex-col justify-center'>
-						<SectionWrapper>
+						<HeroWrapper>
 							<Hero />
-						</SectionWrapper>
+						</HeroWrapper>
 					</section>
 					<Break />
 					<section>

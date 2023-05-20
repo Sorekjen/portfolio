@@ -5,6 +5,7 @@ import event from '../assets/event4u.png';
 import fugthuset from '../assets/fugthuset.png';
 import Break from '../common/Break.jsx';
 import Project from '../common/Project.jsx';
+import SectionWrapper from '../about/SectionWrapper.jsx';
 
 function Projects() {
 	const [pageInfo, setPageInfo] = useState(null);
@@ -27,9 +28,12 @@ function Projects() {
 			</div>
 			{pageInfo && (
 				<>
-					<ul>
+					<ul className="hover:opacity-100 transition-all hover:transition-all">
 						{pageInfo.map((entry, index) => (
-							<Project key={index} entry={entry} />
+							<SectionWrapper>
+								<Project key={index} entry={entry} />
+
+							</SectionWrapper>
 						))}
 					</ul>
 				</>
