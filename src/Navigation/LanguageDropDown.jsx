@@ -15,7 +15,7 @@ function LanguageDropDown({
 					<img
 						src={dkIcon}
 						className={`${
-							language === 'dk' ? 'opacity-100 w-12 h-8' : 'opacity-70 w-9 h-6'
+							language === 'dk' ? 'opacity-100 w-11 h-7' : 'opacity-70 w-9 h-6'
 						} transition-all`}
 					/>
 				</button>
@@ -25,7 +25,7 @@ function LanguageDropDown({
 					<img
 						src={ukIcon}
 						className={`${
-							language === 'en' ? 'opacity-100 w-12 h-8' : 'opacity-70 w-9 h-6'
+							language === 'en' ? 'opacity-100 w-11 h-7' : 'opacity-70 w-9 h-6'
 						} transition-all`}
 					/>
 				</button>
