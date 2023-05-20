@@ -7,8 +7,8 @@ import SkillTag from './SkillTag';
 export default function Project({ entry }) {
 	const images = [event, pokedex, fugthuset];
 	return (
-		<li className='flex md:flex-col odd:flex-row-reverse even:flex-row my-10'>
-			<div className='h-full flex flex-col mb-10 px-10'>
+		<li className='flex flex-col md:odd:flex-row-reverse md:even:flex-row my-10'>
+			<div className='h-full flex flex-col mb-10 px-5'>
 				<div className='text-slate-200 w-full font-medium text-lg'>
 					{entry.title}
 				</div>
@@ -24,7 +24,7 @@ export default function Project({ entry }) {
 
 
 			</div>
-			<div className='w-64'>
+			<div className='w-64 mx-auto'>
 				<img
 					className='w-64 max-w-lg border-slate-700 hover:border-slate-400 transition-all hover:transition-all hover:scale-110 border-2 rounded-sm'
 					src={images[entry.logo]}

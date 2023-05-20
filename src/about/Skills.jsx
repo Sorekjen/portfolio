@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import SkillTag from '../common/SkillTag';
 import { Link } from 'react-router-dom';
+import Heading from '../common/Heading.jsx';
+import { useInView } from 'react-intersection-observer';
+
 export default function Skills() {
 	const [currentTab, setCurrentTab] = useState(0);
 
@@ -104,29 +107,30 @@ export default function Skills() {
 			</div>
 		</div>,
 		<div className='py-4'>
-			<p>
-				With a solid foundation in backend development, I excel at
-				building reliable and scalable APIs. I have hands-on experience
-				in designing and implementing database tiers to ensure efficient
-				data storage and retrieval. My backend systems seamlessly
-				integrate with front-end components, resulting in cohesive
-				applications.
-			</p>
-			<div className='flex py-3'>
-				{['React', 'Vue', 'Angular', 'Svelte'].map((entry, index) => (
-					<div
-						className='flex mr-4'
-						key={index}>
-						<SkillTag text={entry} />
-					</div>
-				))}
+			<p>Check out my toolbox to see what I use to build my projects!</p>
+			<div className='mx-auto mt-10 bg-blue-500 w-fit rounded'>
+				<Link to='/toolbox'>
+				<button class=' z-10 transition-all hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>
+					Toolbox
+				</button>
+				</Link>
 			</div>
-		</div>,
+		</div>
 	];
 
+	const { ref, inView } = useInView({
+		threshold: 0.1,
+	});
+
 	return (
-		<>
-			<div className=' min-h-max flex'>
+		<div
+			ref={ref}
+			className={`${
+				inView ? 'animate-in' : 'opacity-0'
+			} fade-in zoom-in duration-1000 ease-in-out transition-all`}>
+								<Heading text={'What can I do?'} />
+
+			<div className=' min-h-max flex flex-col md:flex-row'>
 				<ul className='flex flex-wrap flex-col text-sm font-medium text-center text-gray-500 border-r border-gray-200 dark:border-gray-700 dark:text-gray-400'>
 					{Array.from([
 						'Software Development Lifecycle',
@@ -134,15 +138,16 @@ export default function Skills() {
 						'Software Architecture',
 						'Web Development',
 						'Backend Development',
+						'Toolbox'
 					]).map((tab, index) => {
 						return (
 							<li
 								className='mr-2'
 								key={index}>
 								<a
-									className={`py-2 px-4 block hover:text-gray-900 dark:hover:text-white cursor-pointer ${
+									className={`py-2 px-4 block font-normal text-lg cursor-pointer hover:-translate-x-2 hover:transition-all transition-all hover:text-blue-300 ${
 										currentTab === index
-											? 'text-gray-900 dark:text-white'
+											? 'text-blue-500'
 											: ''
 									}`}
 									onClick={() => setCurrentTab(index)}>
@@ -151,21 +156,16 @@ export default function Skills() {
 							</li>
 						);
 					})}
-                    <li className='mt-16 mr-2'>
-                        <Link className='mt-14' to="/toolbox">
-                            Toolbox</Link>
-                    </li>
-                            
 				</ul>
 				<div className='max-w-md px-5'>{tabContent[currentTab]}</div>
-
 			</div>
-            <div className='mx-auto mt-10 bg-blue-500 w-fit rounded'>
-						<Link to="/projects"><button class=' z-10 hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>
-							Check out my work!
-						</button>
-                        </Link>
-						</div>
-		</>
+			<div className='mx-auto mt-10 bg-blue-500 w-fit rounded'>
+				<Link to='/projects'>
+					<button class=' z-10 transition-all hover:transition hover:-translate-x-1 hover:-translate-y-1 text-blue-500 border-2 p-4 border-blue-500 rounded bg-slate-900'>
+						Check out my work!
+					</button>
+				</Link>
+			</div>
+		</div>
 	);
 }

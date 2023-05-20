@@ -1,10 +1,21 @@
 import React from 'react'
 import Heading from '../common/Heading'
 import portrait from '../assets/portrait.svg'
+import { useInView } from "react-intersection-observer";
+
 export default function Summary() {
-return(<>
+	const { ref, inView } = useInView({
+		threshold: 0.1,
+	});
+
+	return (
+		<div
+			ref={ref}
+			className={`${
+				inView ? 'animate-in' : 'opacity-0'
+			} fade-in zoom-in duration-1000 ease-in-out transition-all`}>
 <Heading text={'Who am I?'} />
-<div className='flex flex-row'>
+<div className='flex flex-col md:flex-row'>
 <div className=' max-w-lg mr-5'>
     <p className='mb-2'>
         Hello! My name is Jakob and I love solving
@@ -39,6 +50,6 @@ return(<>
     />
 </div>
 </div>
-</>)
+</div>)
 }
 
