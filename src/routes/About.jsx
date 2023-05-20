@@ -11,7 +11,8 @@ import Summary from '../about/Summary.jsx';
 import Hero from '../about/Hero.jsx';
 import Personal from '../about/Personal.jsx';
 import Current from '../about/Current.jsx';
-import { useInView } from "react-intersection-observer";
+import { useInView } from 'react-intersection-observer';
+import SectionWrapper from '../about/SectionWrapper.jsx';
 
 function About() {
 	const [pageInfo, setPageInfo] = useState(null);
@@ -21,58 +22,38 @@ function About() {
 		setPageInfo(INFO.about);
 	}, []);
 
-	const { heroRef, heroInView } = useInView({
-		threshold: 0,
-	});
-
-	const { summaryRef, summaryInView } = useInView({
-		threshold: 0,
-	});
-
-	const { skillsRef, skillsInView } = useInView({
-		threshold: 0,
-	});
-
-	const { personalRef, personalInView } = useInView({
-		threshold: 0,
-	});
-
-	const { currentRef, currentInView } = useInView({
-		threshold: 0,
-	});
-
-	const { ref, inView } = useInView({
-		threshold: 0.1,
-	});
-
-
-	useEffect(() => {
-		console.log(heroInView);
-	}, [heroInView]);
-
-
 	return (
 		<>
 			{pageInfo?.education?.title && (
 				<>
 					<section className='min-h-screen flex flex-col justify-center'>
-						<Hero />
+						<SectionWrapper>
+							<Hero />
+						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
-						<Summary />
+						<SectionWrapper>
+							<Summary />
+						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
-						<Skills />
+						<SectionWrapper>
+							<Skills />
+						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
-						<Personal />
+						<SectionWrapper>
+							<Personal />
+						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
-						<Current />
+						<SectionWrapper>
+							<Current />
+						</SectionWrapper>
 					</section>
 					<Break />
 				</>

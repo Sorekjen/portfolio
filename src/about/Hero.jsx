@@ -1,16 +1,6 @@
-import React from 'react';
-import { useInView } from 'react-intersection-observer';
 export default function(){
-	const { ref, inView } = useInView({
-		threshold: 0.1,
-	});
-
 	return (
-		<div
-			ref={ref}
-			className={`${
-				inView ? 'animate-in' : 'opacity-0'
-			} fade-in zoom-in duration-1000 ease-in-out transition-all`}>
+		<>
             <div class='mb-4 tracking-widest'>Hi, my name is</div>
             <div class='font-bold text-6xl mb-4 h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
                 Jakob Kjellerup.
@@ -28,5 +18,5 @@ export default function(){
                 Check me out!
             </button>
             </div>
-        </div>)
+        </>)
 }

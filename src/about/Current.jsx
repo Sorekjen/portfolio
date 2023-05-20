@@ -1,21 +1,11 @@
 import React from 'react';
 import Heading from '../common/Heading';
 import CourseTag from '../common/CourseTag';
-import { useInView } from 'react-intersection-observer';
 
 export default function () {
-	const { ref, inView } = useInView({
-		threshold: 0.1,
-	});
 
 	return (
-		<div
-			ref={ref}
-			className={`${
-				inView ? 'animate-in' : 'opacity-0'
-			} fade-in zoom-in duration-1000 ease-in-out transition-all`}>
-
-                
+		<>
 			<Heading text={'What am I up to?'} />
 			<div className='flex flex-row'>
 				<div className=' max-w-lg mr-5'>
@@ -44,6 +34,6 @@ export default function () {
 					</p>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
