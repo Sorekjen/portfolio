@@ -35,6 +35,7 @@ function Navigation({ setLanguage, language}) {
 							toggleMobileMenu={toggleMobileMenu}
 						/>
 						<LanguageDropDown
+							language = {language}
 							setLanguage={setLanguage}
 							isLanguageDropdownOpen={isLanguageDropdownOpen}
 							toggleLanguageDropdown={toggleLanguageDropdown}
