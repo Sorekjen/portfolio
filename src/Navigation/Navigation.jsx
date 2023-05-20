@@ -1,30 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import LanguageDropDown from './LanguageDropDown';
 import NavLink from './NavLink';
 import NavButton from './NavButton';
 import { useLocation } from 'react-router-dom';
-import { use } from 'i18next';
+import { PageContext } from '../App';
 
-function Navigation() {
+function Navigation({ setLanguage, language}) {
 	let location = useLocation();
 	const [path, setPath] = useState(location.pathname);
 	const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-	const [navItems] = useState([
-		{
-			label: 'About',
-			path: '/',
-		},
-		{
-			label: 'Projects',
-			path: '/projects',
-		},
-		{
-			label: 'Contact',
-
-			path: '/contact',
-		},
-	]);
+	const navItems = useContext(PageContext).nav
 
 	useEffect(() => {
 		console.log(location.pathname);
@@ -41,7 +27,7 @@ function Navigation() {
 
 	return (
 		<>
-			<nav className='bg-slate-900 fixed w-screen'>
+			<nav className='bg-slate-900 fixed w-screen z-50'>
 				<div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
 					<div className='flex items-center md:order-2 '>
 					<NavButton
@@ -49,6 +35,7 @@ function Navigation() {
 							toggleMobileMenu={toggleMobileMenu}
 						/>
 						<LanguageDropDown
+							setLanguage={setLanguage}
 							isLanguageDropdownOpen={isLanguageDropdownOpen}
 							toggleLanguageDropdown={toggleLanguageDropdown}
 						/>

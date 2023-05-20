@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { INFO } from '../data/user.js';
+import { INFO } from '../data/user.jsx';
 export default function () {
 	const [pageInfo, setPageInfo] = useState(INFO.about);
 	console.log(INFO)

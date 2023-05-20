@@ -1,59 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import { INFO } from '../data/user.js';
-import Heading from '../common/Heading.jsx';
-import Text from '../common/Text.jsx';
-import portrait from '../assets/portrait.svg';
-import Education from '../common/Education.jsx';
+import React, {useState, useEffect, useContext} from 'react';
 import Skills from '../about/Skills.jsx';
 import Break from '../common/Break.jsx';
-import CourseTag from '../common/CourseTag.jsx';
 import Summary from '../about/Summary.jsx';
 import Hero from '../about/Hero.jsx';
 import Personal from '../about/Personal.jsx';
 import Current from '../about/Current.jsx';
-import { useInView } from 'react-intersection-observer';
 import SectionWrapper from '../about/SectionWrapper.jsx';
 import HeroWrapper from '../about/HeroWrapper.jsx';
+import {PageContext} from '../App.jsx';
 
-function About() {
-	const [pageInfo, setPageInfo] = useState(null);
 
-	useEffect(() => {
-		console.log(INFO);
-		setPageInfo(INFO.about);
-	}, []);
+export default function About() {
+	const content = useContext(PageContext)
 
+	console.log(content)
 	return (
 		<>
-			{pageInfo?.education?.title && (
+			{content?.about && (
 				<>
 					<section className='min-h-screen flex flex-col justify-center'>
 						<HeroWrapper>
-							<Hero />
+							<Hero text={content.about.hero}/>
 						</HeroWrapper>
 					</section>
 					<Break />
 					<section>
 						<SectionWrapper>
-							<Summary />
+							<Summary text={content.about.summary}/>
 						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
 						<SectionWrapper>
-							<Skills />
+							<Skills text={content.about.skills} />
 						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
 						<SectionWrapper>
-							<Personal />
+							<Personal text={content.about.personal}/>
 						</SectionWrapper>
 					</section>
 					<Break />
 					<section>
 						<SectionWrapper>
-							<Current />
+							<Current text={content.about.current}/>
 						</SectionWrapper>
 					</section>
 					<Break />
@@ -61,5 +52,4 @@ function About() {
 			)}
 		</>
 	);
-}
-export default About;
+};

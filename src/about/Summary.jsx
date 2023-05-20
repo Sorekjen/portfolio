@@ -4,35 +4,13 @@ import portrait from '../assets/portrait.svg';
 import portraitsmile from '../assets/portraitsmile.svg';
 import { useInView } from 'react-intersection-observer';
 
-export default function Summary() {
+export default function Summary({text}) {
 	return (
 		<>
-			<Heading text={'Who am I?'} />
+			<Heading text={text.title} />
 			<div className='flex flex-col md:flex-row'>
 				<div className=' max-w-lg mr-5'>
-					<p className='mb-2'>
-						Hello! My name is Jakob and I love solving problems. I
-						have a toolbox and mindset that enables me to do
-						anything I set my mind to. I am passionate about always
-						learning something new and expanding my
-						toolbox.
-					</p>
-					<p className='mb-2'>
-						I love working in a team, with focus on great
-						communication and efficient project management. I thrive
-						on working with new and complex problems and designing
-						solutions for them.
-					</p>
-					<p className='mb-2'>
-						The software world is always evolving, but with my
-						foundation and passion for learning, I am always ready
-						adapt.
-					</p>
-					<p className='mb-2'>
-						I look forward to being part of a team of skilled
-						colleagues that design, implement, test and deploy high
-						quality solutions.
-					</p>
+					{text.text}
 				</div>
 				<div className='border-2 border-slate-400 border-spacing-2 border-content-center justify-center mx-auto w-fit h-fit'>
 					<img

@@ -3,15 +3,14 @@ import Heading from '../common/Heading';
 import Text from '../common/Text';
 import { INFO } from '../data/user';
 
-export default function Personal() {
+export default function Personal({text}) {
 
     
-    const [pageInfo, setPageInfo] = useState(INFO.about);
 
 
 	return (
 		<>
-        <Heading text={pageInfo.interestTitle} />
-        <Text text={pageInfo.interestDescription} />
+        <Heading text={text.title} />
+        <Text text={text.text} />
         </>)
 }

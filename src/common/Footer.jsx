@@ -2,8 +2,11 @@ import { AiOutlineGithub } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from 'react-icons';
+import { PageContext } from '../App';
+import { useContext } from 'react';
 
 function Footer() {
+	const content = useContext(PageContext);
 	return (
 		<div className=''>
 
@@ -21,7 +24,7 @@ function Footer() {
 				</a>
 			</div>
             <div className='text-slate-500 text-center mb-10'>
-            Built from scratch by {' '}<a href="/portfolio/contact">me</a>{' '} using {' '}<a href="https://vitejs.dev/">ViteJS</a>{' '} and {' '}<a href="https://tailwindcss.com/">Tailwind CSS</a>, All text is set in the {' '}<a href="https://rsms.me/inter/">Inter</a>{' '} typeface.
+				{content?.footer.content}
 			</div>
 		</div>
 	);
