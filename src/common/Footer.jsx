@@ -13,10 +13,10 @@ function Footer() {
 					href={'https://www.github.com/sorekjen'}>
 					<AiOutlineGithub color={"lightgrey"} className='w-8 h-8 color'/>{' '}
 				</a>
-				<a className="mx-5" href={'mailto: sorenkjellerup@gmail.com'}>
+				<a className="mx-5" href={'mailto:sorenkjellerup@gmail.com'}>
 					<MdEmail className='w-8 h-8' color={"lightgrey"} />{' '}
 				</a>
-				<a className='w-8 h-8' href={'https://www.linkedin.com/'}>
+				<a className='w-8 h-8' href={'https://www.linkedin.com/in/jakob-kjellerup-66888a277/'}>
 					<AiOutlineLinkedin color={"lightgrey"} className='w-8 h-8'/>
 				</a>
 			</div>

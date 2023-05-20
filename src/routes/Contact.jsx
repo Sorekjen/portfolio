@@ -15,7 +15,7 @@ function Contact() {
 				Dont hesitate to contact me!
 			</div>
 			<div className='flex flex-row justify-evenly p-5'>
-				<a href={'https://sorekjen.github.com/'}>
+				<a href={'https://github.com/sorekjen'}>
 					<IconContext.Provider
 						value={{
 							color: 'lightgrey',
@@ -24,7 +24,7 @@ function Contact() {
 						<AiOutlineGithub />
 					</IconContext.Provider>
 				</a>
-				<a href={'mailto: sorenkjellerup@gmail.com'}>
+				<a href={'mailto:sorenkjellerup@gmail.com'}>
 					<IconContext.Provider
 						value={{
 							color: '#ff5d5d',
@@ -33,7 +33,7 @@ function Contact() {
 						<MdEmail />
 					</IconContext.Provider>
 				</a>
-				<a href={'https://www.linkedin.com/'}>
+				<a href={'https://www.linkedin.com/in/jakob-kjellerup-66888a277/'}>
 					<IconContext.Provider
 						value={{
 							color: '#0E76A8',

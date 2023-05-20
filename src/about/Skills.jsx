@@ -75,7 +75,7 @@ export default function Skills() {
 				usability and accessibility.
 			</p>
 			<div className='flex py-3'>
-				{['React', 'Vue', 'Angular', 'Svelte'].map((entry, index) => (
+				{['React', 'JavaScript', 'TypeScript', 'Tailwind'].map((entry, index) => (
 					<div
 						className='flex mr-4'
 						key={index}>
@@ -96,7 +96,7 @@ export default function Skills() {
 				applications.
 			</p>
 			<div className='flex py-3'>
-				{['React', 'Vue', 'Angular', 'Svelte'].map((entry, index) => (
+				{['Java', 'SQL', 'API', 'Database', 'Design'].map((entry, index) => (
 					<div
 						className='flex mr-4'
 						key={index}>
@@ -129,7 +129,7 @@ export default function Skills() {
 						'Software Architecture',
 						'Web Development',
 						'Backend Development',
-						'Toolbox'
+					
 					]).map((tab, index) => {
 						return (
 							<li
