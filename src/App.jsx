@@ -24,7 +24,7 @@ export default function App() {
 					setLanguage={setLanguage}
 					language={language}
 				/>
-				<ScrollToTop />
+				<ScrollToTop language={language}/>
 				<div className='max-w-4xl m-auto p-6'>
 					<Outlet />
 				</div>
