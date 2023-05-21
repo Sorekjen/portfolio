@@ -21,13 +21,14 @@ export const INFO = {
 			path: '/projects',
 		},
 		{
-			label: 'Contact',
-			path: '/contact',
-		},
-		{
 			label: 'Resume',
 			path: '/resume',
 		},
+		{
+			label: 'Contact',
+			path: '/contact',
+		},
+
 	],
 	about: {
 		hero: {

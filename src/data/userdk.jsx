@@ -20,13 +20,14 @@ export const INFODK = {
 			label: 'Portfolie',
 			path: '/projects',
 		},
-		{
-			label: 'Kontakt',
-			path: '/contact',
-		},
+
 		{
 			label: 'Resume',
 			path: '/resume',
+		},
+		{
+			label: 'Kontakt',
+			path: '/contact',
 		},
 	],
 
