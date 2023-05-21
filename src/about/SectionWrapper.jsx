@@ -8,7 +8,7 @@ export default function SectionWrapper({ children }) {
     const [show, setShow] = useState(false);
 
     const { ref, inView } = useInView({
-		threshold: 0.3,
+		threshold: 0.2,
 	});
 
     useEffect(() => {
