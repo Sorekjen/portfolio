@@ -13,16 +13,6 @@ export default function App() {
 	const [pageInfo, setPageInfo] = useState(INFO);
 
 	useEffect(() => {
-		console.log(pageInfo);
-	}, [pageInfo]);
-	
-	useEffect(() => {
-		console.log(language);
-
-	}, [language]);
-
-
-	useEffect(() => {
 		if (language === 'dk') setPageInfo(INFODK);
 		else if (language === 'en') setPageInfo(INFO);
 	}, [language]);
