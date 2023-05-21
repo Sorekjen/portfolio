@@ -1,7 +1,7 @@
 import pokedex from '../assets/pokedex.png';
 import event from '../assets/event4u.png';
 import fugthuset from '../assets/fugthuset.png';
-
+import Text from './Text';
 import SkillTag from './SkillTag';
 
 export default function Project({ entry }) {
@@ -12,7 +12,7 @@ export default function Project({ entry }) {
 				<div className='text-slate-200 w-full font-medium text-lg'>
 					{entry.title}
 				</div>
-				<div className='leading-normal'>{entry.description}</div>
+				<div className='leading-normal'><Text text={entry.description}/></div>
 				<div className='flex flex-row'>
 					{entry.tags.map((tag, index) => {
 						console.log(tag);

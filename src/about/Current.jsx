@@ -1,5 +1,6 @@
 import React from 'react';
 import Heading from '../common/Heading';
+import Text from '../common/Text';
 
 export default function ({text}) {
 	return (
@@ -10,7 +11,7 @@ export default function ({text}) {
 					<div
 						key={index}
 						className=' max-w-lg mr-5'>
-						{text}
+						<Text text={text}/>
 					</div>
 				))}
 			</div>

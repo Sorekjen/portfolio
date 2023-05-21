@@ -438,7 +438,7 @@ export const INFODK = {
 			),
 			logo: '0',
 			tags: ['C#', 'Blazor', 'Java', 'EF Core', 'RESTful API'],
-			link: 'https://github.com',
+			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 
 		{
@@ -453,7 +453,7 @@ export const INFODK = {
 			),
 			logo: '1',
 			tags: ['React', 'PokeAPI'],
-			link: 'Sorekjen.github.io/pokedex',
+			link: 'https://Sorekjen.github.io/pokedex',
 		},
 
 		{
@@ -474,7 +474,7 @@ export const INFODK = {
 			),
 			logo: '2',
 			tags: ['React', 'ViteJS', 'Prisma', 'RESTful API', 'C'],
-			link: 'https://github.com',
+			link: 'https://github.com/SW-SEP4-S23',
 		},
 	],
 	projectIntro: (

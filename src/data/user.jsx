@@ -426,10 +426,10 @@ export const INFO = {
 	footer: {
 		content: (
 			<>
-				Built from scratch by <a href='/portfolio/contact'>me</a> using{' '}
-				<a href='https://vitejs.dev/'>ViteJS</a> and{' '}
-				<a href='https://tailwindcss.com/'>Tailwind CSS</a>, All text is
-				set in the <a href='https://rsms.me/inter/'>Inter</a> typeface. Icons from <a href="https://icons8.com">Icons8</a> and <a href="https://devicon.dev/">Devicon</a>.
+				Built from scratch by <a className={'font-bold text-slate-300 cursor-pointer'} href='/portfolio/contact'>me</a> using{' '}
+				<a className={'font-bold text-slate-300 cursor-pointer'} href='https://vitejs.dev/'>ViteJS</a> and{' '}
+				<a className={'font-bold text-slate-300 cursor-pointer'} href='https://tailwindcss.com/'>Tailwind CSS</a>, All text is
+				set in the <a className={'font-bold text-slate-300 cursor-pointer'} href='https://rsms.me/inter/'>Inter</a> typeface. Icons from <a className={'font-bold text-slate-300 cursor-pointer'} href="https://icons8.com">Icons8</a> and <a className={'font-bold text-slate-300 cursor-pointer'} href="https://devicon.dev/">Devicon</a>.
 			</>
 		),
 	},
@@ -463,7 +463,7 @@ export const INFO = {
 			),
 			logo: '0',
 			tags: ['C#', 'Blazor', 'Java', 'EF Core', 'RESTful API'],
-			link: 'https://github.com',
+			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 
 		{
@@ -478,7 +478,7 @@ export const INFO = {
 			),
 			logo: '1',
 			tags: ['React', 'PokeAPI'],
-			link: 'Sorekjen.github.io/pokedex',
+			link: 'https://Sorekjen.github.io/pokedex',
 		},
 
 		{
@@ -499,7 +499,7 @@ export const INFO = {
 			),
 			logo: '2',
 			tags: ['React', 'ViteJS', 'Prisma', 'RESTful API', 'C'],
-			link: 'https://github.com',
+			link: 'https://github.com/SW-SEP4-S23',
 		},
 	],
 	projectIntro:

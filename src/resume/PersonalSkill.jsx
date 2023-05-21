@@ -1,3 +1,5 @@
+import React from 'react';
+import Text from '../common/Text';
 export default function ({ skill }) {
 	return (
 		<div className='flex flex-col md:flex-row mb-10'>
@@ -5,7 +7,7 @@ export default function ({ skill }) {
 				<p className={`text-slate-300`}>{skill.title}</p>
 			</div>
 			<div className="w-fit p-3">
-				<p>{skill.description}</p>
+				<Text text={skill.description} />
 			</div>
 		</div>
 	);

@@ -6,14 +6,3 @@
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif; }
 }
-
-a {
-  color: rgb(222, 222, 222);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: hsl(121, 100%, 86%);
-  cursor: pointer;
-}

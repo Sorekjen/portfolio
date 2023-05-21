@@ -18,7 +18,7 @@ export default function App() {
 	}, [language]);
 
 	return (
-		<div className='min-h-screen '>
+		<div className='min-h-screen'>
 			<PageContext.Provider value={pageInfo}>
 				<Navigation
 					setLanguage={setLanguage}

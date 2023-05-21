@@ -1,5 +1,6 @@
 import React from 'react';
 import SkillTag from '../common/SkillTag';
+import Text from '../common/Text';
 
 export default function ({ skill }) {
 	return (
@@ -8,7 +9,7 @@ export default function ({ skill }) {
 				<p className={`text-slate-300`}>{skill.title}</p>
 			</div>
 			<div className='w-fit p-3'>
-				<p>{skill.content.text}</p>
+				<Text text={skill.content.text} />
 				<div className='flex flex-row py-3'>
 					{skill.content.tags.map((entry, index) => (
 						<div

@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from '../common/Heading';
 import Break from '../common/Break';
+import Text from '../common/Text';
 
 export default function ({ education}) {
     return (
@@ -19,7 +20,7 @@ export default function ({ education}) {
                     {education.date}
                 </div>
                 <div className='text-center justify-center w-full'>
-                    {education.description}
+                    <Text text={education.description}/>
                 </div>
             </div>
 
