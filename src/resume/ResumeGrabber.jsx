@@ -3,7 +3,8 @@ export default function ({ content }) {
 	return (
 		<div className=' mt-24 flex flex-col justify-center'>
 			{content?.text}
-			<div className="flex flex-row-reverse">
+			<div className="flex flex-col">
+
 
 				<div className=' bg-blue-500 w-fit rounded m-auto'>
                     <a href = {pdf} target ={"_blank"}>

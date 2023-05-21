@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import { PageContext } from '../App.jsx';
 import SoftwareSkillsContainer from '../resume/SoftwareSkillsContainer.jsx';
 
@@ -7,44 +7,32 @@ import PersonalSkillsContainer from '../resume/PersonalSkillsContainer.jsx';
 import ResumeGrabber from '../resume/ResumeGrabber.jsx';
 import Education from '../resume/Education.jsx';
 import Experience from '../resume/Experience.jsx';
+import HeroWrapper from '../about/HeroWrapper.jsx';
+import SectionWrapper from '../about/SectionWrapper.jsx';
 
 export default function () {
 	const content = useContext(PageContext);
 	return (
-		<div className='content-center w-full'>
+		<div key={content.language}  className='content-center w-full pt-20'>
+			<HeroWrapper>
+				<ResumeGrabber content={content.resume.intro} />
+			</HeroWrapper>
+			<SectionWrapper>
+				<SoftwareSkillsContainer
+					skills={content.resume.softwareSkills}
+				/>
+			</SectionWrapper>
 
-		<ResumeGrabber content={content.resume.intro}/>
-
-		<SoftwareSkillsContainer skills={content.resume.softwareSkills}/>
-
-		<PersonalSkillsContainer skills={content.resume.personalSkills}/>
-
-		<ToolboxContainer skills={content.resume.skills}/>
-
-		<Education education={content.resume.education}/>
-
-		<Experience experience={content.resume.experience}/>
-
-
-			<div className=' mt-20 flex md:flex-row justify-between p-10 flex-col text-slate-300'>
-				{/*content.resume.skills.map((entry) => (
-						<div className='flex flex-col mb-10'>
-							<div className='justify-center text-center w-full font-bold text-lg'>
-								{entry.title}
-							</div>
-							{entry.entries.map((skill) => (
-								<div className='text-center justify-center w-full'>
-									{skill}
-								</div>
-							))}
-						</div>
-							))*/}
-			</div>
-			<div className='flex flex-col justify-center text-slate-300'>
-				{content.resume.personalSkillsTitle}
-
-				</div>
-
+			<PersonalSkillsContainer skills={content.resume.personalSkills} />
+			<SectionWrapper>
+				<ToolboxContainer skills={content.resume.skills} />
+			</SectionWrapper>
+			<SectionWrapper>
+				<Experience experience={content.resume.experience} />
+			</SectionWrapper>
+			<SectionWrapper>
+				<Education education={content.resume.education} />
+			</SectionWrapper>
 		</div>
 	);
 }

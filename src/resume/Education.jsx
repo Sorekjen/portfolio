@@ -9,7 +9,7 @@ export default function ({ education}) {
             {education.entries.map((education) => (
             
             <div className='flex flex-col mb-10'>
-                <div className='justify-center text-center w-full font-bold text-lg'>
+                <div className='justify-center text-center w-full font-bold text-lg text-slate-300'>
                     {education.title}
                 </div>
                 <div className='text-center justify-center w-full'>
@@ -22,7 +22,7 @@ export default function ({ education}) {
                     {education.description}
                 </div>
             </div>
-            
+
             
             ))}
             <Break />

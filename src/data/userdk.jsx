@@ -10,7 +10,9 @@ export const INFODK = {
 		github: 'https://github.com/',
 		linkedin: 'https://linkedin.com/',
 	},
-	nav: [{
+
+	nav: [
+		{
 			label: 'Om mig',
 			path: '/',
 		},
@@ -25,7 +27,8 @@ export const INFODK = {
 		{
 			label: 'Resume',
 			path: '/resume',
-		}],
+		},
+	],
 
 	about: {
 		hero: {
@@ -86,96 +89,6 @@ export const INFODK = {
 				</>
 			),
 		},
-		skills: {
-			title: 'Hvad kan jeg?',
-			tabs: [
-				{
-					title: 'Softwareudvikling',
-					content: {
-						text: (
-							<p>
-								Jeg har en omfattende forståelse for
-								softwareudviklingslivscyklussen, herunder
-								kravindsamling, analyse, design, implementering,
-								test og implementering. Jeg prioriterer hver
-								fase for at sikre en problemfri projektudførelse
-								og succesfuld levering.
-							</p>
-						),
-						tags: ['Agil', 'Scrum', 'DevOps', 'CI/CD'],
-					},
-				},
-				{
-					title: 'Programmeringssprog',
-					content: {
-						text: (
-							<p>
-								Jeg er dygtig inden for flere
-								programmeringsparadigmer og sprog. Denne
-								alsidighed gør det muligt for mig at tilpasse
-								mig forskellige projektbehov og løse komplekse
-								kodningsudfordringer effektivt. Jeg forstår
-								vigtigheden af at skrive kode, der er nem at
-								læse og vedligeholde, og at 10 gode linjer kode
-								er bedre end 1000 dårlige.
-							</p>
-						),
-						tags: ['SOLID', 'JavaScript', 'Java', 'C#'],
-					},
-				},
-				{
-					title: 'Softwarearkitektur',
-					content: {
-						text: (
-							<p>
-								Med en god viden om softwarearkitekturer og
-								systemer som klient-server, microservices og
-								distribuerede systemer kan jeg designe og
-								udvikle skalerbare løsninger skræddersyet til
-								specifikke behov. Min ekspertise sikrer robust
-								og effektiv systemdesign og implementering.
-							</p>
-						),
-						tags: ['Klient/Server', 'Layered', 'Microservices'],
-					},
-				},
-				{
-					title: 'Webudvikling',
-					content: {
-						text: (
-							<p>
-								Jeg har god beherskelse af HTML, CSS og
-								JavaScript. Ved hjælp af forskellige værktøjer
-								kan jeg skabe intuitive brugergrænseflader og
-								engagerende weboplevelser, der prioriterer
-								brugervenlighed og tilgængelighed.
-							</p>
-						),
-						tags: ['React', 'JavaScript', 'TypeScript', 'Tailwind'],
-					},
-				},
-				{
-					title: 'Backend-udvikling',
-					content: {
-						text: (
-							<p>
-								Med en solid baggrund inden for
-								backend-udvikling kan jeg bygge pålidelige og
-								skalerbare API'er. Jeg har praktisk erfaring med
-								at designe og implementere database-lag for at
-								sikre effektiv datalagring og -hentning. Det er
-								vigtigt, at backend-systemer integrerer
-								problemfrit med frontend-komponenter, hvilket
-								resulterer i sammenhængende applikationer.
-							</p>
-						),
-						tags: ['Java', 'SQL', 'API', 'Database', 'Design'],
-					},
-				},
-			],
-			button: 'Se mit arbejde!',
-		},
-
 		personal: {
 			title: 'Hvad driver mig?',
 			text: (
@@ -221,42 +134,46 @@ export const INFODK = {
 	},
 
 	resume: {
-		skillsTitle: 'Skills',
-		skills: {languages:
-			{
+		intro: {
+			buttonpdf: 'Download CV',
+		},
+		skills: {
+			title: 'Min Værktøjskasse',
+			Intro: 'Her er en liste af noget af det værktøj jeg har arbejdet med. Jeg er altid klar til at lære noget nyt!',
+			languages: {
 				title: 'Programmeringssprog',
 				entries: [
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'JavaScript'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+						label: 'JavaScript',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'TypeScript'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+						label: 'TypeScript',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'C#'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
+						label: 'C#',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Java'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+						label: 'Java',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'HTML'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+						label: 'HTML',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'CSS'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+						label: 'CSS',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'SQL'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+						label: 'SQL',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'C'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+						label: 'C',
 					},
 				],
 			},
@@ -264,90 +181,92 @@ export const INFODK = {
 				title: 'Værktøj',
 				entries: [
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Git'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
+						label: 'Git',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Github'
+						image: 'https://img.icons8.com/ios-glyphs/480/FFFFFF/github.png',
+						label: 'Github',
+					},
+					/*{
+								image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+								label: 'WSL',
+							},*/
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg',
+						label: 'Docker',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'WSL'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+						label: 'VSC',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Docker'
+						image: 'https://img.icons8.com/ios-filled/500/FFFFFF/unity.png',
+						label: 'Unity',
+					},
+					/*{
+								image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+								label: 'DataGrip',
+							},*/
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg',
+						label: 'IntelliJ',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'VSC'
+						image: 'https://img.icons8.com/small/256/FFFFFF/jetbrains--v1.png',
+						label: 'Rider',
 					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Unity'
-					}
 				],
 			},
 			frameworks: {
 				title: 'Frameworks',
 				entries: [
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'React'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+						label: 'React',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'NodeJS'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+						label: 'NodeJS',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Tailwind'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Tailwind',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'ExpressJS'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+						label: 'ExpressJS',
+						color: 'white',
 					},
+
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Bootstrap'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg',
+						label: '.Net Core',
 					},
+					/*{
+								image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+								label: 'EF core',
+							},
+							{
+								image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+								label: 'Blazor',
+							},*/
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: '.Net Core'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg',
+						label: 'Spring Boot',
 					},
+					/*{
+								image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+								label: 'Hibernate',
+							},
+							{
+								image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+								label: 'JUnit',
+							},*/
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Entity Framework Core'
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+						label: 'Jest',
 					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Blazor'
-					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'JavaFX'
-					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Unity'
-					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Spring Boot'
-					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Hibernate'
-					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'JUnit'
-					},
-					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-						label: 'Jest'
-					}
 				],
 			},
 			development: {
@@ -362,35 +281,121 @@ export const INFODK = {
 				],
 			},
 		},
-
-		personalSkillsTitle: 'Personlige færdigheder',
-		entries: [
+		softwareSkills: {
+			title: 'Færdigheder',
+			entries: [
 			{
-				title: 'Kommunikation',
-				description:
-					'Jeg er en fremragende kommunikator, og jeg trives med at arbejde i et team. Jeg er altid klar til at hjælpe, og jeg er ikke bange for at bede om hjælp, når jeg har brug for det. Jeg er altid åben for feedback og altid på udkig efter måder at forbedre mig selv og mit arbejde på.',
+			title: 'Softwareudvikling',
+			content: {
+			text: (
+			<p>
+			Jeg har en omfattende forståelse af softwareudviklingslivscyklussen, herunder kravindsamling, analyse, design, implementering, test og implementering. Jeg prioriterer hver fase for at sikre en problemfri projektudførelse og succesfuld levering.
+			</p>
+			),
+			tags: ['Agile', 'Scrum', 'DevObs', 'CI/CD'],
+			},
 			},
 			{
-				title: 'Problem løsning',
-				description:
-					'Jeg er en fremragende problemløser, og jeg elsker at arbejde med nye og komplekse problemer. Jeg er altid klar til at dykke ned i noget nyt og producere noget elegant.',
+			title: 'Programmeringssprog',
+			content: {
+			text: (
+			<p>
+			Jeg er dygtig i flere programmeringsparadigmer og sprog. Denne alsidighed giver mig mulighed for at tilpasse mig forskellige projektkrav og løse komplekse kodningsudfordringer effektivt. Jeg forstår vigtigheden af at skrive kode, der er nem at læse og vedligeholde, og at 10 gode linjer kode er bedre end 1000 dårlige.
+			</p>
+			),
+			tags: ['SOLID', 'JavaScript', 'Java', 'C#'],
+			},
 			},
 			{
-				title: 'Tilpasningsevne',
-				description:
-					'Jeg er en hurtig lærende, og jeg er altid klar til at lære nye ting. Jeg er altid på udkig efter nye udfordringer for at udvide min viden og mine færdigheder.',
+			title: 'Softwarearkitektur',
+			content: {
+			text: (
+			<p>
+			Med en god viden om softwarearkitektur og systemer som klient-server, microservices og distribuerede systemer kan jeg designe og udvikle skalerbare løsninger skræddersyet til specifikke behov. Min ekspertise sikrer robust og effektiv systemdesign og implementering.
+			</p>
+			),
+			tags: ['Klient/server', 'Lagdelt', 'Microservices'],
+			},
 			},
 			{
-				title: 'Kreativitet',
-				description:
-					'Jeg er en kreativ person, og jeg elsker at skabe nye ting. Jeg er altid på udkig efter nye måder at løse problemer på, og jeg er altid klar til at prøve nye ting.',
+			title: 'Webudvikling',
+			content: {
+			text: (
+			<p>
+			Jeg har stærke kompetencer inden for HTML, CSS og JavaScript. Ved hjælp af forskellige værktøjer kan jeg skabe intuitive brugergrænseflader og engagerende weboplevelser, der prioriterer brugervenlighed og tilgængelighed.
+			</p>
+			),
+			tags: ['React', 'JavaScript', 'TypeScript', 'Tailwind'],
+			},
 			},
 			{
-				title: 'Samarbejde',
-				description:
-					'Jeg er en god holdspiller, og jeg er altid klar til at hjælpe andre. Jeg er altid på udkig efter nye måder at forbedre mine samarbejdsevner på.',
+			title: 'Backend-udvikling',
+			content: {
+			text: (
+			<p>
+			Med en solid baggrund i backend-udvikling kan jeg opbygge pålidelige og skalerbare API'er. Jeg har praktisk erfaring med at designe og implementere databasetier for at sikre effektiv lagring og hentning af data. Det er vigtigt, at backend-systemer integreres problemfrit med frontend-komponenter, hvilket resulterer i sammenhængende applikationer.
+			</p>
+			),
+			tags: ['Java', 'SQL', 'API', 'Database', 'Design'],
 			},
-		],	
+			},
+			],
+			button: 'Se mit arbejde!',
+			},
+		personalSkills: {
+			title: 'Personlige færdigheder',
+			entries: [
+				{
+					title: 'Kommunikation',
+					description:
+						'Jeg er en fremragende kommunikator, og jeg trives med at arbejde i et team. Jeg er altid klar til at hjælpe, og jeg er ikke bange for at bede om hjælp, når jeg har brug for det. Jeg er altid åben for feedback og altid på udkig efter måder at forbedre mig selv og mit arbejde på.',
+				},
+				{
+					title: 'Problem løsning',
+					description:
+						'Jeg er en fremragende problemløser, og jeg elsker at arbejde med nye og komplekse problemer. Jeg er altid klar til at dykke ned i noget nyt og producere noget elegant.',
+				},
+				{
+					title: 'Tilpasningsevne',
+					description:
+						'Jeg er en hurtig lærende, og jeg er altid klar til at lære nye ting. Jeg er altid på udkig efter nye udfordringer for at udvide min viden og mine færdigheder.',
+				},
+				{
+					title: 'Kreativitet',
+					description:
+						'Jeg er en kreativ person, og jeg elsker at skabe nye ting. Jeg er altid på udkig efter nye måder at løse problemer på, og jeg er altid klar til at prøve nye ting.',
+				},
+				{
+					title: 'Samarbejde',
+					description:
+						'Jeg er en god holdspiller, og jeg er altid klar til at hjælpe andre. Jeg er altid på udkig efter nye måder at forbedre mine samarbejdsevner på.',
+				},
+			],
+		},
+		education: {
+			title: 'Uddannelse',
+			entries: [
+				{
+					title: 'Softwareingeniør',
+					subtitle: 'VIA University College',
+					date: '2020 - 2023',
+					description:
+						'Jeg studerer til softwareingeniør på VIA University College. Jeg er på fjerde semester, hvor fokus er på at udvikle softwareløsninger med systemintegration og arbejde i store teams med agil projektstyring.',
+				},
+				{
+					title: 'HTX',
+					subtitle: 'Herningsholm erhvervsgymnasium',
+					date: '2017 - 2020',
+					description:
+						'Jeg gik på HTX på Herningsholm Erhvervsgymnasium. Jeg lærte om softwareudvikling, elektronik, matematik, fysik og engelsk. Jeg lærte også om projektstyring og samarbejde i store teams.',
+				},
+			],
+		},
+		experience: {
+			title: 'Erfaring',
+			intro: 'Jeg er lige nu i gang med at tage min uddannelse og har derfor ikke noget relevant arbejdserfaring. Her er nogle af de projekter jeg har arbejdet på.',
+			button: 'Projekter',
+		},
 	},
 	footer: {
 		content: (
@@ -399,7 +404,9 @@ export const INFODK = {
 				<a href='/portfolio/contact'>yours truly</a> med{' '}
 				<a href='https://vitejs.dev/'>ViteJS</a> og{' '}
 				<a href='https://tailwindcss.com/'>Tailwind CSS</a>, skriftypen
-				er fra <a href='https://rsms.me/inter/'>Inter</a>.
+				er fra <a href='https://rsms.me/inter/'>Inter</a>. Ikoner er fra{' '}
+				<a href='https://icons8.com'>Icons8</a> og{' '}
+				<a href='https://devicon.dev/'>Devicon</a>.
 			</>
 		),
 	},

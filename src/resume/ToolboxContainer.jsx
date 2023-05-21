@@ -3,6 +3,7 @@ import Tool from './Tool';
 import Heading from '../common/Heading';
 import Tabs from '../common/Tabs';
 import Break from '../common/Break';
+import Text from '../common/Text';
 
 
 export default function ({ skills }) {
@@ -55,11 +56,10 @@ export default function ({ skills }) {
 	return (
 		<>
 			<Heading text={skills.title} />
+            <Text text={skills.intro}/>
 			<Tabs tabs={tabs} />
             <Break />
 
-            <Break />
-            <Break />
 		</>
 	);
 }

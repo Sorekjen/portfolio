@@ -138,81 +138,95 @@ export const INFO = {
 		},
 		skills: {
 			title: 'My Toolbox',
+			intro: 'I have a wide range of tools that i am familiar with and I am always learning new things. Here are some of my skills:',
 			languages: {
-				title: 'Programmeringssprog',
+				title: 'Programming Languages',
 				entries: [
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
 						label: 'JavaScript',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
 						label: 'TypeScript',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
 						label: 'C#',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
 						label: 'Java',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
 						label: 'HTML',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
 						label: 'CSS',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
 						label: 'SQL',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
 						label: 'C',
 					},
 				],
 			},
 			tools: {
-				title: 'Værktøj',
+				title: 'Tools',
 				entries: [
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
 						label: 'Git',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://img.icons8.com/ios-glyphs/480/FFFFFF/github.png',
 						label: 'Github',
 					},
-					{
+					/*{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
 						label: 'WSL',
-					},
+					},*/
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg',
 						label: 'Docker',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
 						label: 'VSC',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://img.icons8.com/ios-filled/500/FFFFFF/unity.png',
 						label: 'Unity',
 					},
+					/*{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'DataGrip',
+					},*/
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg',
+						label: 'IntelliJ',
+					},
+					{
+						image: 'https://img.icons8.com/small/256/FFFFFF/jetbrains--v1.png',
+						label: 'Rider',
+					},
+
 				],
 			},
 			frameworks: {
 				title: 'Frameworks',
 				entries: [
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
 						label: 'React',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
 						label: 'NodeJS',
 					},
 					{
@@ -220,47 +234,37 @@ export const INFO = {
 						label: 'Tailwind',
 					},
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
 						label: 'ExpressJS',
+						color: "white"
 					},
+
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
-						label: 'Bootstrap',
-					},
-					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg',
 						label: '.Net Core',
 					},
-					{
+					/*{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
 						label: 'EF core',
 					},
 					{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
 						label: 'Blazor',
-					},
+					},*/
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
-						label: 'JavaFX',
-					},
-					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
-						label: 'Unity',
-					},
-					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg',
 						label: 'Spring Boot',
 					},
-					{
+					/*{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
 						label: 'Hibernate',
 					},
 					{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
 						label: 'JUnit',
-					},
+					},*/
 					{
-						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
 						label: 'Jest',
 					},
 				],
@@ -406,16 +410,15 @@ export const INFO = {
 						'Currently studying to become a software engineer at VIA University College. I am in my fourth semester where the focus is on developing a software solutions with system integration and focusing on working in a big team with agile project management.',
 				},
 				{
-					title: 'High School',
-					subtitle: 'Viborg Gymnasium og HF',
+					title: 'Higher Technical Examination',
+					subtitle: 'Herningsholm erhvervsgymnasium',
 					date: '2017 - 2020',
 					description:
-						'Graduated from Viborg Gymnasium og HF with a focus on math and physics. I was part of the student council and was responsible for planning and executing events for the students.',
-				
-				}]},
+						'I graduated with a higher technical examination in 2020. I studied mathematics, physics and computer science. I also had a focus on entrepreneurship and innovation.',
+				},]},
 		experience: {
 			title: 'Experience',
-			intro: 'I currently have no work experience, but I am always looking for new opportunities to learn and grow.',
+			intro: 'I am currently taking my degree, but I am always looking for new opportunities to learn and grow.',
 			button: 'Check out my projects!',
 		}
 	},
@@ -425,7 +428,7 @@ export const INFO = {
 				Built from scratch by <a href='/portfolio/contact'>me</a> using{' '}
 				<a href='https://vitejs.dev/'>ViteJS</a> and{' '}
 				<a href='https://tailwindcss.com/'>Tailwind CSS</a>, All text is
-				set in the <a href='https://rsms.me/inter/'>Inter</a> typeface.
+				set in the <a href='https://rsms.me/inter/'>Inter</a> typeface. Icons from <a href="https://icons8.com">Icons8</a> and <a href="https://devicon.dev/">Devicon</a>.
 			</>
 		),
 	},
