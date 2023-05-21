@@ -1,5 +1,4 @@
-import React, {useState, useEffect, useContext} from 'react';
-import Skills from '../about/Skills.jsx';
+import React, {useContext} from 'react';
 import Break from '../common/Break.jsx';
 import Summary from '../about/Summary.jsx';
 import Hero from '../about/Hero.jsx';
@@ -13,9 +12,11 @@ import {PageContext} from '../App.jsx';
 export default function About() {
 	const content = useContext(PageContext)
 
+		
+
 	console.log(content)
 	return (
-		<>
+		<div key={content.language}>
 			{content?.about && (
 				<>
 					<section className='min-h-screen flex flex-col justify-center'>
@@ -27,12 +28,6 @@ export default function About() {
 					<section>
 						<SectionWrapper>
 							<Summary text={content.about.summary}/>
-						</SectionWrapper>
-					</section>
-					<Break />
-					<section>
-						<SectionWrapper>
-							<Skills text={content.about.skills} />
 						</SectionWrapper>
 					</section>
 					<Break />
@@ -50,6 +45,6 @@ export default function About() {
 					<Break />
 				</>
 			)}
-		</>
+		</div>
 	);
 };

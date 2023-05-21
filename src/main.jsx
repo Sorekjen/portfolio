@@ -5,7 +5,7 @@ import { createHashRouter, RouterProvider } from 'react-router-dom';
 import About from './routes/About.jsx';
 import Projects from './routes/Projects.jsx';
 import Contact from './routes/Contact.jsx';
-import Toolbox from './routes/Toolbox.jsx';
+import Resume from './routes/Resume.jsx';
 
 import './index.css';
 
@@ -27,8 +27,8 @@ const router = createHashRouter([
 				element: <Contact />,
 			},
 			{
-				path: '/toolbox',
-				element: <Toolbox />,
+				path: '/resume',
+				element: <Resume />,
 			},
 		],
 	},

@@ -1,4 +1,5 @@
 export const INFO = {
+	language: 'en',
 	main: {
 		title: 'Jakob Kjellerup Software Engineer',
 		name: 'Jakob Kjellerup',
@@ -10,19 +11,24 @@ export const INFO = {
 		linkedin: 'https://linkedin.com/',
 	},
 
-	nav: [{
-		label: 'About',
-		path: '/',
-	},
-	{
-		label: 'Portfolio',
-		path: '/projects',
-	},
-	{
-		label: 'Contact',
-
-		path: '/contact',
-	}],
+	nav: [
+		{
+			label: 'About',
+			path: '/',
+		},
+		{
+			label: 'Portfolio',
+			path: '/projects',
+		},
+		{
+			label: 'Contact',
+			path: '/contact',
+		},
+		{
+			label: 'Resume',
+			path: '/resume',
+		},
+	],
 	about: {
 		hero: {
 			text: (
@@ -81,9 +87,199 @@ export const INFO = {
 				</>
 			),
 		},
+		personal: {
+			title: 'What drives me?',
+			text: (
+				<p>
+					I have an insatiable curiosity that drives me to explore a
+					wide range of topics. I love delving deep into things and
+					geek about the details, and I enjoy sharing my knowledge or
+					learning from others. My passion for cooking often leads me
+					to experiment with new recipes in the kitchen and explore
+					new ingredients and culinary cultures. I also find deep
+					satisfaction in connecting with nature, whether through a
+					quiet walk or in my own apartment, where I enjoy taking care
+					of my collection of unique plants and watching them grow and
+					bloom.
+				</p>
+			),
+		},
+		current: {
+			title: 'What am I up to?',
+			text: [
+				<p className='mb-2'>
+					I am currently studying to become a software engineer at{' '}
+					<a>VIA University College</a>. I am in my fourth semester
+					where the focus is on developing a software solutions with
+					system integration and focusing on working in a big team
+					with agile project management.
+				</p>,
+				<p className='mb-2'>
+					I am working on a <a>project</a> with a large group of
+					students where we are designing and building a software
+					solution for a mock company <a> Fugt Huset</a>. The focus
+					with this project is collaborating on a project that has
+					multiple teams and system integration.
+				</p>,
+				<p className='mb-2'>
+					In my spare time I am always working on a project. being
+					able to get a crazy idea and will it into existence is what
+					I love about being an engineer. To see what I am currently
+					working on, check out my <a>projects</a> page.
+				</p>,
+			],
+		},
+	},
+
+	resume: {
+		intro: {
+			button: 'Check out my resume!',
+			buttonpdf: 'Grab a copy',
+		},
 		skills: {
-			title: 'What can I do?',
-			tabs: [
+			title: 'My Toolbox',
+			languages: {
+				title: 'Programmeringssprog',
+				entries: [
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'JavaScript',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'TypeScript',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'C#',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Java',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'HTML',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'CSS',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'SQL',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'C',
+					},
+				],
+			},
+			tools: {
+				title: 'Værktøj',
+				entries: [
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Git',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Github',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'WSL',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Docker',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'VSC',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Unity',
+					},
+				],
+			},
+			frameworks: {
+				title: 'Frameworks',
+				entries: [
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'React',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'NodeJS',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Tailwind',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'ExpressJS',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Bootstrap',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: '.Net Core',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'EF core',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Blazor',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'JavaFX',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Unity',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Spring Boot',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Hibernate',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'JUnit',
+					},
+					{
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
+						label: 'Jest',
+					},
+				],
+			},
+			development: {
+				title: 'Udvikling',
+				entries: [
+					'Agile development',
+					'Scrum',
+					'DevObs',
+					'CI/CD',
+					'Kanpan',
+					'Unified process',
+				],
+			},
+		},
+		softwareSkills: {
+			title: 'Skills',
+			entries: [
 				{
 					title: 'Software Development',
 					content: {
@@ -169,151 +365,65 @@ export const INFO = {
 			],
 			button: 'Check out my work!',
 		},
-		personal: {
-			title: 'What drives me?',
-			text: (
-				<p>
-					I have an insatiable curiosity that drives me to explore a
-					wide range of topics. I love delving deep into things and
-					geek about the details, and I enjoy sharing my knowledge or
-					learning from others. My passion for cooking often leads me
-					to experiment with new recipes in the kitchen and explore
-					new ingredients and culinary cultures. I also find deep
-					satisfaction in connecting with nature, whether through a
-					quiet walk or in my own apartment, where I enjoy taking care
-					of my collection of unique plants and watching them grow and
-					bloom.
-				</p>
-			),
-		},
-		current: {
-			title: 'What am I up to?',
-			text: [
-				<p className='mb-2'>
-					I am currently studying to become a software engineer at{' '}
-					<a>VIA University College</a>. I am in my fourth semester
-					where the focus is on developing a software solutions with
-					system integration and focusing on working in a big team
-					with agile project management.
-				</p>,
-				<p className='mb-2'>
-					I am working on a <a>project</a> with a large group of
-					students where we are designing and building a software
-					solution for a mock company <a> Fugt Huset</a>. The focus
-					with this project is collaborating on a project that has
-					multiple teams and system integration.
-				</p>,
-				<p className='mb-2'>
-					In my spare time I am always working on a project. being
-					able to get a crazy idea and will it into existence is what
-					I love about being an engineer. To see what I am currently
-					working on, check out my <a>projects</a> page.
-				</p>,
+		personalSkills: {
+			title: 'Personal Skills',
+			entries: [
+				{
+					title: 'Communication',
+					description:
+						'I am a great communicator and I thrive on working in a team. I am always ready to help and I am not afraid to ask for help when I need it. I am always open to feedback and I am always looking for ways to improve myself and my work.',
+				},
+				{
+					title: 'Problem Solving',
+					description:
+						'I am a great problem solver and I love working with new and complex problems. I am always ready to dive into something new and produce something elegant.',
+				},
+				{
+					title: 'Adaptability',
+					description:
+						'I am a quick learner and I am always ready to learn new things. I am always looking for new challenges to expand my knowledge and skills.',
+				},
+				{
+					title: 'Creativity',
+					description:
+						'I am a creative person and I love to create new things. I am always looking for new ways to solve problems and I am always ready to try new things.',
+				},
+				{
+					title: 'Teamwork',
+					description:
+						'I am a great team player and I am always ready to help others. I am always looking for new ways to improve my teamwork skills.',
+				},
 			],
 		},
-	},
-
-	toolbox: {
-		skillsTitle: 'Skills',
-		skills: [
-			{
-				title: 'Languages',
-				entries: [
-					'JavaScript',
-					'TypeScript',
-					'C#',
-					'Java',
-					'HTML',
-					'CSS',
-					'SQL',
-					'C++',
-					'C',
-				],
-			},
-			{
-				title: 'Tools',
-				entries: [
-					'Git',
-					'Github',
-					'WSL',
-					'Docker',
-					'Visual Studio Code',
-					'IntelliJ, Rider, DataGrip',
-					'Unity',
-				],
-			},
-			{
-				title: 'Frameworks and Libraries',
-				entries: [
-					'React',
-					'React Native',
-					'Node.js',
-					'Tailwind CSS',
-					'Express.js',
-					'Bootstrap',
-					'ASP.NET Core',
-					'Entity Framework Core',
-					'Blazor',
-					'JavaFX',
-					'Spring Boot',
-					'Hibernate',
-					'JUnit',
-					'Jest',
-				],
-			},
-			{
-				title: 'Development',
-				entries: [
-					'Agile development',
-					'Scrum',
-					'DevObs',
-					'CI/CD',
-					'Kanpan',
-					'Unified process',
-				],
-			},
-		],
-
-		personalSkillsTitle: 'Personal Skills',
-		entries: [
-			{
-				title: 'Communication',
-				description:
-					'I am a great communicator and I thrive on working in a team. I am always ready to help and I am not afraid to ask for help when I need it. I am always open to feedback and I am always looking for ways to improve myself and my work.',
-			},
-			{
-				title: 'Problem Solving',
-				description:
-					'I am a great problem solver and I love working with new and complex problems. I am always ready to dive into something new and produce something elegant.',
-			},
-			{
-				title: 'Adaptability',
-				description:
-					'I am a quick learner and I am always ready to learn new things. I am always looking for new challenges to expand my knowledge and skills.',
-			},
-			{
-				title: 'Creativity',
-				description:
-					'I am a creative person and I love to create new things. I am always looking for new ways to solve problems and I am always ready to try new things.',
-			},
-			{
-				title: 'Time Management',
-				description:
-					'I am a great time manager and I am always ready to take on new challenges. I am always looking for new ways to improve my time management skills.',
-			},
-			{
-				title: 'Teamwork',
-				description:
-					'I am a great team player and I am always ready to help others. I am always looking for new ways to improve my teamwork skills.',
-			},
-		],
+		education: {
+			title: 'Education',
+			entries: [
+				{
+					title: 'Software Engineering',
+					subtitle: 'VIA University College',
+					date: '2020 - 2023',
+					description:
+						'Currently studying to become a software engineer at VIA University College. I am in my fourth semester where the focus is on developing a software solutions with system integration and focusing on working in a big team with agile project management.',
+				},
+				{
+					title: 'High School',
+					subtitle: 'Viborg Gymnasium og HF',
+					date: '2017 - 2020',
+					description:
+						'Graduated from Viborg Gymnasium og HF with a focus on math and physics. I was part of the student council and was responsible for planning and executing events for the students.',
+				
+				}]},
+		experience: {
+			title: 'Experience',
+			intro: 'I currently have no work experience, but I am always looking for new opportunities to learn and grow.',
+			button: 'Check out my projects!',
+		}
 	},
 	footer: {
 		content: (
 			<>
-				Built from scratch by <a href='/portfolio/contact'>
-					me
-				</a> using <a href='https://vitejs.dev/'>ViteJS</a> and{' '}
+				Built from scratch by <a href='/portfolio/contact'>me</a> using{' '}
+				<a href='https://vitejs.dev/'>ViteJS</a> and{' '}
 				<a href='https://tailwindcss.com/'>Tailwind CSS</a>, All text is
 				set in the <a href='https://rsms.me/inter/'>Inter</a> typeface.
 			</>

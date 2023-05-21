@@ -1,4 +1,5 @@
 export const INFODK = {
+	language: 'dk',
 	main: {
 		title: 'Jakob Kjellerup Software Engineer',
 		name: 'Jakob Kjellerup',
@@ -19,8 +20,11 @@ export const INFODK = {
 		},
 		{
 			label: 'Kontakt',
-
 			path: '/contact',
+		},
+		{
+			label: 'Resume',
+			path: '/resume',
 		}],
 
 	about: {
@@ -216,56 +220,138 @@ export const INFODK = {
 		},
 	},
 
-	toolbox: {
+	resume: {
 		skillsTitle: 'Skills',
-		skills: [
+		skills: {languages:
 			{
-				title: 'Languages',
+				title: 'Programmeringssprog',
 				entries: [
-					'JavaScript',
-					'TypeScript',
-					'C#',
-					'Java',
-					'HTML',
-					'CSS',
-					'SQL',
-					'C++',
-					'C',
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'JavaScript'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'TypeScript'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'C#'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Java'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'HTML'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'CSS'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'SQL'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'C'
+					},
 				],
 			},
-			{
-				title: 'Tools',
+			tools: {
+				title: 'Værktøj',
 				entries: [
-					'Git',
-					'Github',
-					'WSL',
-					'Docker',
-					'Visual Studio Code',
-					'IntelliJ, Rider, DataGrip',
-					'Unity',
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Git'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Github'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'WSL'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Docker'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'VSC'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Unity'
+					}
 				],
 			},
-			{
-				title: 'Frameworks and Libraries',
+			frameworks: {
+				title: 'Frameworks',
 				entries: [
-					'React',
-					'React Native',
-					'Node.js',
-					'Tailwind CSS',
-					'Express.js',
-					'Bootstrap',
-					'ASP.NET Core',
-					'Entity Framework Core',
-					'Blazor',
-					'JavaFX',
-					'Spring Boot',
-					'Hibernate',
-					'JUnit',
-					'Jest',
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'React'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'NodeJS'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Tailwind'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'ExpressJS'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Bootstrap'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: '.Net Core'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Entity Framework Core'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Blazor'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'JavaFX'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Unity'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Spring Boot'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Hibernate'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'JUnit'
+					},
+					{
+						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+						label: 'Jest'
+					}
 				],
 			},
-			{
-				title: 'Development',
+			development: {
+				title: 'Udvikling',
 				entries: [
 					'Agile development',
 					'Scrum',
@@ -275,41 +361,36 @@ export const INFODK = {
 					'Unified process',
 				],
 			},
-		],
+		},
 
-		personalSkillsTitle: 'Personal Skills',
+		personalSkillsTitle: 'Personlige færdigheder',
 		entries: [
 			{
-				title: 'Communication',
+				title: 'Kommunikation',
 				description:
-					'I am a great communicator and I thrive on working in a team. I am always ready to help and I am not afraid to ask for help when I need it. I am always open to feedback and I am always looking for ways to improve myself and my work.',
+					'Jeg er en fremragende kommunikator, og jeg trives med at arbejde i et team. Jeg er altid klar til at hjælpe, og jeg er ikke bange for at bede om hjælp, når jeg har brug for det. Jeg er altid åben for feedback og altid på udkig efter måder at forbedre mig selv og mit arbejde på.',
 			},
 			{
-				title: 'Problem Solving',
+				title: 'Problem løsning',
 				description:
-					'I am a great problem solver and I love working with new and complex problems. I am always ready to dive into something new and produce something elegant.',
+					'Jeg er en fremragende problemløser, og jeg elsker at arbejde med nye og komplekse problemer. Jeg er altid klar til at dykke ned i noget nyt og producere noget elegant.',
 			},
 			{
-				title: 'Adaptability',
+				title: 'Tilpasningsevne',
 				description:
-					'I am a quick learner and I am always ready to learn new things. I am always looking for new challenges to expand my knowledge and skills.',
+					'Jeg er en hurtig lærende, og jeg er altid klar til at lære nye ting. Jeg er altid på udkig efter nye udfordringer for at udvide min viden og mine færdigheder.',
 			},
 			{
-				title: 'Creativity',
+				title: 'Kreativitet',
 				description:
-					'I am a creative person and I love to create new things. I am always looking for new ways to solve problems and I am always ready to try new things.',
+					'Jeg er en kreativ person, og jeg elsker at skabe nye ting. Jeg er altid på udkig efter nye måder at løse problemer på, og jeg er altid klar til at prøve nye ting.',
 			},
 			{
-				title: 'Time Management',
+				title: 'Samarbejde',
 				description:
-					'I am a great time manager and I am always ready to take on new challenges. I am always looking for new ways to improve my time management skills.',
+					'Jeg er en god holdspiller, og jeg er altid klar til at hjælpe andre. Jeg er altid på udkig efter nye måder at forbedre mine samarbejdsevner på.',
 			},
-			{
-				title: 'Teamwork',
-				description:
-					'I am a great team player and I am always ready to help others. I am always looking for new ways to improve my teamwork skills.',
-			},
-		],
+		],	
 	},
 	footer: {
 		content: (

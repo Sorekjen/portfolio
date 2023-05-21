@@ -6,7 +6,7 @@ import { PageContext } from '../App';
 function Projects() {
 	const content = useContext(PageContext);
 	return (
-		<>
+		<div key={content.language}>
 			<div className='text-slate-300 font-bold text-center mt-24'>
 				{content?.projectIntro}
 			</div>
@@ -20,7 +20,7 @@ function Projects() {
 					</SectionWrapper>
 				))}
 			</ul>
-		</>
+		</div>
 	);
 }
 export default Projects;

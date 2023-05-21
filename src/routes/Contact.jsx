@@ -4,10 +4,13 @@ import { MdEmail } from 'react-icons/md';
 import { IconContext } from 'react-icons';
 import { PageContext } from '../App';
 import { useContext } from 'react';
+import HeroWrapper from '../about/HeroWrapper.jsx';
 
 function Contact() {
 	const content = useContext(PageContext);
 	return (
+		<div key={content.language}>
+		<HeroWrapper>
 		<div className='flex flex-col min-h-screen justify-center content-center p-auto'>
 			{content?.contact.title}
 			<div className='flex flex-row justify-evenly p-5'>
@@ -45,6 +48,8 @@ function Contact() {
 					</IconContext.Provider>{' '}
 				</a>
 			</div>
+		</div>
+		</HeroWrapper>
 		</div>
 	);
 }
