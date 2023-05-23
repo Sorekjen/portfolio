@@ -28,7 +28,7 @@ export default function ({ tabs }) {
 								active === tab.title
 									? 'border-b-2 text-slate-200'
 									: 'text-slate-500 border-b-2 border-slate-900'
-							} ${!isMobileMenuOpen && active !== tab.title ? 'hidden' : 'show' } cursor-pointer p-2 m-2 w-1/3 md:text-center text-left md:hover:bg-slate-800 transition-all`}>
+							} ${!isMobileMenuOpen && active !== tab.title ? 'max-[700px]:hidden' : 'show' } cursor-pointer p-2 m-2 w-1/3 md:text-center text-left md:hover:bg-slate-800 transition-all`}>
 							{tab.title}
 						</li>
 					))}
