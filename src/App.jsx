@@ -25,7 +25,7 @@ export default function App() {
 					language={language}
 				/>
 				<ScrollToTop language={language}/>
-				<div className='max-w-4xl m-auto p-6'>
+				<div className='max-w-4xl m-auto'>
 					<Outlet />
 				</div>
 				<Footer />

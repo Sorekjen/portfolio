@@ -28,7 +28,6 @@ export const INFO = {
 			label: 'Contact',
 			path: '/contact',
 		},
-
 	],
 	about: {
 		hero: {
@@ -133,8 +132,47 @@ export const INFO = {
 	},
 
 	resume: {
-		intro: {
-			button: 'Check out my resume!',
+		hero: {
+			title: 'Resume',
+			TOC: {
+				content: [
+					{
+						title: 'Skills',
+						list: (
+							<>
+								<li>Software Development</li>
+								<li>Programming languages</li>
+								<li>Software Architecture</li>
+								<li>Web Development</li>
+								<li>Backend Development</li>
+							</>
+						),
+					},
+					{
+						title: 'Personal Skills',
+						list: (
+							<>
+								<li>Communication</li>
+								<li>Problem Solving</li>
+								<li>Adaptability</li>
+								<li>Creativity</li>
+								<li>Teamwork</li>
+							</>
+						),
+					},
+					{
+						title: 'Experience',
+						list: (
+							<>
+								<li>Toolbox</li>
+								<li>Work Experience</li>
+								<li>Projects</li>
+								<li>Education</li>
+							</>
+						),
+					},
+				],
+			},
 			buttonpdf: 'Grab a copy',
 		},
 		skills: {
@@ -164,7 +202,7 @@ export const INFO = {
 						label: 'HTML',
 					},
 					{
-						image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
 						label: 'CSS',
 					},
 					{
@@ -216,7 +254,6 @@ export const INFO = {
 						image: 'https://img.icons8.com/small/256/FFFFFF/jetbrains--v1.png',
 						label: 'Rider',
 					},
-
 				],
 			},
 			frameworks: {
@@ -237,7 +274,7 @@ export const INFO = {
 					{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
 						label: 'ExpressJS',
-						color: "white"
+						color: 'white',
 					},
 
 					{
@@ -416,20 +453,55 @@ export const INFO = {
 					date: '2017 - 2020',
 					description:
 						'I graduated with a higher technical examination in 2020. I studied mathematics, physics and computer science. I also had a focus on entrepreneurship and innovation.',
-				},]},
+				},
+			],
+		},
 		experience: {
 			title: 'Experience',
 			intro: 'I am currently taking my degree, but I am always looking for new opportunities to learn and grow.',
 			button: 'Check out my projects!',
-		}
+		},
 	},
 	footer: {
 		content: (
 			<>
-				Built from scratch by <a className={'font-bold text-slate-300 cursor-pointer'} href='/portfolio/contact'>me</a> using{' '}
-				<a className={'font-bold text-slate-300 cursor-pointer'} href='https://vitejs.dev/'>ViteJS</a> and{' '}
-				<a className={'font-bold text-slate-300 cursor-pointer'} href='https://tailwindcss.com/'>Tailwind CSS</a>, All text is
-				set in the <a className={'font-bold text-slate-300 cursor-pointer'} href='https://rsms.me/inter/'>Inter</a> typeface. Icons from <a className={'font-bold text-slate-300 cursor-pointer'} href="https://icons8.com">Icons8</a> and <a className={'font-bold text-slate-300 cursor-pointer'} href="https://devicon.dev/">Devicon</a>.
+				Built from scratch by{' '}
+				<a
+					className={'font-bold text-slate-300 cursor-pointer'}
+					href='/portfolio/contact'>
+					me
+				</a>{' '}
+				using{' '}
+				<a
+					className={'font-bold text-slate-300 cursor-pointer'}
+					href='https://vitejs.dev/'>
+					ViteJS
+				</a>{' '}
+				and{' '}
+				<a
+					className={'font-bold text-slate-300 cursor-pointer'}
+					href='https://tailwindcss.com/'>
+					Tailwind CSS
+				</a>
+				, All text is set in the{' '}
+				<a
+					className={'font-bold text-slate-300 cursor-pointer'}
+					href='https://rsms.me/inter/'>
+					Inter
+				</a>{' '}
+				typeface. Icons from{' '}
+				<a
+					className={'font-bold text-slate-300 cursor-pointer'}
+					href='https://icons8.com'>
+					Icons8
+				</a>{' '}
+				and{' '}
+				<a
+					className={'font-bold text-slate-300 cursor-pointer'}
+					href='https://devicon.dev/'>
+					Devicon
+				</a>
+				.
 			</>
 		),
 	},
@@ -462,7 +534,7 @@ export const INFO = {
 				</p>
 			),
 			logo: '0',
-			tags: ['C#', 'Blazor', 'Java', 'EF Core', 'RESTful API'],
+			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful'],
 			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 
@@ -498,7 +570,7 @@ export const INFO = {
 				</p>
 			),
 			logo: '2',
-			tags: ['React', 'ViteJS', 'Prisma', 'RESTful API', 'C'],
+			tags: ['React', 'ViteJS', 'Prisma', 'REST', 'C'],
 			link: 'https://github.com/SW-SEP4-S23',
 		},
 	],

@@ -13,7 +13,7 @@ function Contact() {
 	return (
 		<div key={content.language}>
 			<HeroWrapper>
-				<div className='flex flex-col min-h-[80vh] justify-center content-center p-auto'>
+				<div className='flex flex-col min-h-[85vh] justify-center content-center p-auto'>
 					<Text text={content?.contact.title}/>
 					<div className='flex flex-row justify-evenly p-5'>
 						<a href={'https://github.com/sorekjen'}>

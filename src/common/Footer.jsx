@@ -23,7 +23,7 @@ function Footer() {
 					<AiOutlineLinkedin color={"lightgrey"} className='w-8 h-8'/>
 				</a>
 			</div>
-            <div className='text-slate-500 text-center mb-10'>
+            <div className='text-slate-500 p-6 md:p-0 text-center mb-10'>
 				{content?.footer.content}
 			</div>
 		</div>

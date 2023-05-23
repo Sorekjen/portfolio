@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useRef} from 'react';
 import Break from '../common/Break.jsx';
 import Summary from '../about/Summary.jsx';
 import Hero from '../about/Hero.jsx';
@@ -11,21 +11,22 @@ import {PageContext} from '../App.jsx';
 
 export default function About() {
 	const content = useContext(PageContext)
+	const summarySection = useRef()
 
 		
 
 	console.log(content)
 	return (
-		<div key={content.language}>
+		<div key={content.language} className='p-4 md:p-0'>
 			{content?.about && (
 				<>
-					<section className='min-h-screen flex flex-col justify-center'>
+					<section  className='min-h-screen flex flex-col justify-center'>
 						<HeroWrapper>
-							<Hero text={content.about.hero}/>
+							<Hero text={content.about.hero} summarySectionRef={summarySection}/>
 						</HeroWrapper>
 					</section>
 					<Break />
-					<section>
+					<section ref={summarySection}>
 						<SectionWrapper>
 							<Summary text={content.about.summary}/>
 						</SectionWrapper>

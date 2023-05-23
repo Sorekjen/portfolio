@@ -24,9 +24,9 @@ export default function Project({ entry }) {
 
 
 			</div>
-			<div className='w-64 mx-auto'>
+			<div className='w-48 mx-auto'>
 				<img
-					className='w-64 max-w-lg border-slate-700 hover:border-slate-400 transition-all hover:transition-all hover:scale-110 border-2 rounded-sm'
+					className=' w-48 max-w-lg border-slate-700 hover:border-slate-400 transition-all hover:transition-all hover:scale-110 border-2 rounded-sm'
 					src={images[entry.logo]}
 				/>
 				</div>

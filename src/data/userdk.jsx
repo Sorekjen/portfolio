@@ -135,8 +135,48 @@ export const INFODK = {
 	},
 
 	resume: {
-		intro: {
-			buttonpdf: 'Download CV',
+		hero: {
+			title: 'Resume',
+			TOC: {
+				content: [
+					{
+						title: 'Kompetencer',
+						list: (
+							<>
+								<li>Software Udvikling</li>
+								<li>Programmingssprog</li>
+								<li>Softwarearkitektur</li>
+								<li>Webudvikling</li>
+								<li>Backend-udvikling</li>
+							</>
+						),
+					},
+					{
+						title: 'Personlige kompetencer',
+						list: (
+							<>
+								<li>Kommunikation</li>
+								<li>Problemløsning</li>
+								<li>Tilpasningsevne</li>
+								<li>Kreativitet</li>
+								<li>Samarbejde</li>
+							</>
+						),
+					},
+					{
+						title: 'Erfaring',
+						list: (
+							<>
+								<li>Værktøjskasse</li>
+								<li>Arbejdserfaring</li>
+								<li>Projekter</li>
+								<li>Uddannelse</li>
+							</>
+						),
+					},
+				],
+			},
+			buttonpdf: 'Download som PDF',
 		},
 		skills: {
 			title: 'Min Værktøjskasse',
@@ -285,64 +325,92 @@ export const INFODK = {
 		softwareSkills: {
 			title: 'Færdigheder',
 			entries: [
-			{
-			title: 'Softwareudvikling',
-			content: {
-			text: (
-			<p>
-			Jeg har en omfattende forståelse af softwareudviklingslivscyklussen, herunder kravindsamling, analyse, design, implementering, test og implementering. Jeg prioriterer hver fase for at sikre en problemfri projektudførelse og succesfuld levering.
-			</p>
-			),
-			tags: ['Agile', 'Scrum', 'DevObs', 'CI/CD'],
-			},
-			},
-			{
-			title: 'Programmeringssprog',
-			content: {
-			text: (
-			<p>
-			Jeg er dygtig i flere programmeringsparadigmer og sprog. Denne alsidighed giver mig mulighed for at tilpasse mig forskellige projektkrav og løse komplekse kodningsudfordringer effektivt. Jeg forstår vigtigheden af at skrive kode, der er nem at læse og vedligeholde, og at 10 gode linjer kode er bedre end 1000 dårlige.
-			</p>
-			),
-			tags: ['SOLID', 'JavaScript', 'Java', 'C#'],
-			},
-			},
-			{
-			title: 'Softwarearkitektur',
-			content: {
-			text: (
-			<p>
-			Med en god viden om softwarearkitektur og systemer som klient-server, microservices og distribuerede systemer kan jeg designe og udvikle skalerbare løsninger skræddersyet til specifikke behov. Min ekspertise sikrer robust og effektiv systemdesign og implementering.
-			</p>
-			),
-			tags: ['Klient/server', 'Lagdelt', 'Microservices'],
-			},
-			},
-			{
-			title: 'Webudvikling',
-			content: {
-			text: (
-			<p>
-			Jeg har stærke kompetencer inden for HTML, CSS og JavaScript. Ved hjælp af forskellige værktøjer kan jeg skabe intuitive brugergrænseflader og engagerende weboplevelser, der prioriterer brugervenlighed og tilgængelighed.
-			</p>
-			),
-			tags: ['React', 'JavaScript', 'TypeScript', 'Tailwind'],
-			},
-			},
-			{
-			title: 'Backend-udvikling',
-			content: {
-			text: (
-			<p>
-			Med en solid baggrund i backend-udvikling kan jeg opbygge pålidelige og skalerbare API'er. Jeg har praktisk erfaring med at designe og implementere databasetier for at sikre effektiv lagring og hentning af data. Det er vigtigt, at backend-systemer integreres problemfrit med frontend-komponenter, hvilket resulterer i sammenhængende applikationer.
-			</p>
-			),
-			tags: ['Java', 'SQL', 'API', 'Database', 'Design'],
-			},
-			},
+				{
+					title: 'Softwareudvikling',
+					content: {
+						text: (
+							<p>
+								Jeg har en omfattende forståelse af
+								softwareudviklingslivscyklussen, herunder
+								kravindsamling, analyse, design, implementering,
+								test og implementering. Jeg prioriterer hver
+								fase for at sikre en problemfri projektudførelse
+								og succesfuld levering.
+							</p>
+						),
+						tags: ['Agile', 'Scrum', 'DevObs', 'CI/CD'],
+					},
+				},
+				{
+					title: 'Programmeringssprog',
+					content: {
+						text: (
+							<p>
+								Jeg er dygtig i flere programmeringsparadigmer
+								og sprog. Denne alsidighed giver mig mulighed
+								for at tilpasse mig forskellige projektkrav og
+								løse komplekse kodningsudfordringer effektivt.
+								Jeg forstår vigtigheden af at skrive kode, der
+								er nem at læse og vedligeholde, og at 10 gode
+								linjer kode er bedre end 1000 dårlige.
+							</p>
+						),
+						tags: ['SOLID', 'JavaScript', 'Java', 'C#'],
+					},
+				},
+				{
+					title: 'Softwarearkitektur',
+					content: {
+						text: (
+							<p>
+								Med en god viden om softwarearkitektur og
+								systemer som klient-server, microservices og
+								distribuerede systemer kan jeg designe og
+								udvikle skalerbare løsninger skræddersyet til
+								specifikke behov. Min ekspertise sikrer robust
+								og effektiv systemdesign og implementering.
+							</p>
+						),
+						tags: ['Klient/server', 'Lagdelt', 'Microservices'],
+					},
+				},
+				{
+					title: 'Webudvikling',
+					content: {
+						text: (
+							<p>
+								Jeg har stærke kompetencer inden for HTML, CSS
+								og JavaScript. Ved hjælp af forskellige
+								værktøjer kan jeg skabe intuitive
+								brugergrænseflader og engagerende weboplevelser,
+								der prioriterer brugervenlighed og
+								tilgængelighed.
+							</p>
+						),
+						tags: ['React', 'JavaScript', 'TypeScript', 'Tailwind'],
+					},
+				},
+				{
+					title: 'Backend-udvikling',
+					content: {
+						text: (
+							<p>
+								Med en solid baggrund i backend-udvikling kan
+								jeg opbygge pålidelige og skalerbare API'er. Jeg
+								har praktisk erfaring med at designe og
+								implementere databasetier for at sikre effektiv
+								lagring og hentning af data. Det er vigtigt, at
+								backend-systemer integreres problemfrit med
+								frontend-komponenter, hvilket resulterer i
+								sammenhængende applikationer.
+							</p>
+						),
+						tags: ['Java', 'SQL', 'API', 'Database', 'Design'],
+					},
+				},
 			],
 			button: 'Se mit arbejde!',
-			},
+		},
 		personalSkills: {
 			title: 'Personlige færdigheder',
 			entries: [
@@ -437,7 +505,7 @@ export const INFODK = {
 				</p>
 			),
 			logo: '0',
-			tags: ['C#', 'Blazor', 'Java', 'EF Core', 'RESTful API'],
+			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful'],
 			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 
@@ -473,7 +541,7 @@ export const INFODK = {
 				</p>
 			),
 			logo: '2',
-			tags: ['React', 'ViteJS', 'Prisma', 'RESTful API', 'C'],
+			tags: ['React', 'ViteJS', 'Prisma', 'RESTful', 'C'],
 			link: 'https://github.com/SW-SEP4-S23',
 		},
 	],
