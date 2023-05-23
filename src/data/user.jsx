@@ -50,8 +50,8 @@ export const INFO = {
 							Studying to become a software engineer at VIA
 							University College. Designing and building various
 							software solutions that are robust, made with the
-							best practices and where quality code that is easy
-							to read and maintain is a priority.
+							best practices and where quality code, that is easy
+							to read and maintain, is a priority.
 						</p>
 					</div>
 				</>
@@ -111,14 +111,14 @@ export const INFO = {
 					I am currently studying to become a software engineer at{' '}
 					<a>VIA University College</a>. I am in my fourth semester
 					where the focus is on developing a software solutions with
-					system integration and focusing on working in a big team
-					with agile project management.
+					system integration as well as focusing on working in a big
+					team with agile project management.
 				</p>,
 				<p className='mb-2'>
-					In my spare time I am always working on a project. being
+					In my spare time I am always working on a project. Being
 					able to get a crazy idea and will it into existence is what
 					I love about being an engineer. To see what I am currently
-					working on, check out my <a>projects</a> page.
+					working on, check out my <a>portfolio</a>.
 				</p>,
 			],
 		},
@@ -158,7 +158,7 @@ export const INFO = {
 						list: (
 							<>
 								<li>Toolbox</li>
-								<li>Work Experience</li>
+								<li>Experience</li>
 								<li>Projects</li>
 								<li>Education</li>
 							</>
@@ -313,7 +313,7 @@ export const INFO = {
 								software development lifecycle, including
 								requirements gathering, analysis, design,
 								implementation, testing, and deployment. I am
-								familiar agile development and Scrum to ensure
+								familiar with agile development and Scrum to ensure
 								smooth project execution and successful
 								delivery.
 							</p>
@@ -345,10 +345,10 @@ export const INFO = {
 						text: (
 							<p>
 								With a good knowledge of software architecture
-								and different system designs, such as client-server,
-								microservices, and distributed systems, I can
-								design and develop scalable solutions tailored
-								to specific needs.
+								and different system designs, such as
+								client-server, microservices, and distributed
+								systems, I can design and develop scalable
+								solutions tailored to specific needs.
 							</p>
 						),
 						tags: ['Client/Server', 'Layered', 'Microservices'],
@@ -510,7 +510,9 @@ export const INFO = {
 					A social media platform designed to connect people with a
 					shared goal of doing something good for the environment. The
 					platform is using a Blazor frontend, a RESTful web API
-					written in Java and a strong backend written in C# with Entity framework core with a postgresSQL database to store data.
+					written in Java and a strong backend written in C# with
+					Entity framework core and a postgresSQL database to store
+					data.
 				</p>
 			),
 			logo: '0',
@@ -522,10 +524,11 @@ export const INFO = {
 			title: 'Pokedex',
 			description: (
 				<p>
-					A Pokedex web application that allows you to search and filter pokemon
-					and to view their stats and evolutions. The app is made with
-					React and uses the PokeAPI to fetch data. In addition you
-					can take a quiz and see if you are a true pokemon fan!
+					A Pokedex web application that allows you to search and
+					filter pokemon and to view their stats and evolutions. The
+					app is made with React and uses the PokeAPI to fetch data.
+					In addition you can take a quiz and see if you are a true
+					pokemon fan!
 				</p>
 			),
 			logo: '1',
@@ -537,12 +540,14 @@ export const INFO = {
 			title: 'FugtHuset',
 			description: (
 				<p>
-					I am currently working on a website for a mock company that needs a system to monitor
-					and keep track of their greenhouse plants. The frontend is built using React, the backend
-					is written using NextJS and typescript and stores the data
-					from the greenhouses in a Prisma relational database. The backend uses cloud hosting
-					and a RESTful API to communicate with the frontend. In
-					addition to this the backend gets sensor data from an IOT device.
+					I am currently working in a team of 12 building a website for a mock company that
+					needs a system to monitor and keep track of their greenhouse
+					plants. The frontend is built using React, the backend is
+					written using NextJS and typescript and stores the data from
+					the greenhouses in a Prisma relational database. The backend
+					uses cloud hosting and a RESTful API to communicate with the
+					frontend. In addition to this the backend gets sensor data
+					from an IOT device.
 				</p>
 			),
 			logo: '2',

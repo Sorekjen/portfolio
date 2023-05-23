@@ -83,7 +83,7 @@ export const INFODK = {
 						klar til at tilpasse mig.
 					</p>
 					<p className='mb-2'>
-						Jeg ser frem til at være en del af et hold dygtige
+						Jeg ser frem til at være en del af et hold dygtige med
 						kolleger, der designer, implementerer, tester og leverer
 						løsninger af høj kvalitet.
 					</p>
@@ -114,7 +114,7 @@ export const INFODK = {
 					Jeg studerer i øjeblikket til softwareingeniør på{' '}
 					<a>VIA University College</a>. Jeg er på fjerde semester,
 					hvor fokus er på at udvikle softwareløsninger med
-					systemintegration og arbejde i store teams med agil
+					systemintegration samt arbejde i store teams med agil
 					projektstyring.
 				</p>,
 				<p className='mb-2'>
@@ -136,7 +136,7 @@ export const INFODK = {
 						list: (
 							<>
 								<li>Software Udvikling</li>
-								<li>Programming</li>
+								<li>Programmering</li>
 								<li>Softwarearkitektur</li>
 								<li>Webudvikling</li>
 								<li>Backend-udvikling</li>
@@ -160,7 +160,6 @@ export const INFODK = {
 						list: (
 							<>
 								<li>Værktøjskasse</li>
-								<li>Arbejdserfaring</li>
 								<li>Projekter</li>
 								<li>Uddannelse</li>
 							</>
@@ -315,7 +314,7 @@ export const INFODK = {
 								softwareudviklingens proces, herunder
 								kravindsamling, analyse, design, implementering,
 								test og levering. Jeg har erfaring med at
-								arbejde agilt og arbejde med Scrumt til sikre en
+								arbejde agilt med Scrum for at sikre en
 								problemfri projektudførelse og succesfuld
 								levering.
 							</p>
@@ -324,7 +323,7 @@ export const INFODK = {
 					},
 				},
 				{
-					title: 'Programmeringssprog',
+					title: 'Programmering',
 					content: {
 						text: (
 							<p>
@@ -347,7 +346,7 @@ export const INFODK = {
 								Med en god viden om softwarearkitektur og
 								systemer som klient-server, microservices og
 								distribuerede systemer kan jeg designe og
-								udvikle skalerbare løsninger skræddersyet til
+								udvikle skalerbare løsninger, skræddersyet til
 								specifikke behov.
 							</p>
 						),
@@ -375,7 +374,7 @@ export const INFODK = {
 					content: {
 						text: (
 							<p>
-								Med en solid baggrund i backend-udvikling kan
+								Med god erfaring i backend-udvikling kan
 								jeg opbygge pålidelige og skalerbare API'er. Jeg
 								har praktisk erfaring med at designe og
 								implementere databaser for at sikre effektiv
@@ -404,17 +403,17 @@ export const INFODK = {
 				{
 					title: 'Tilpasningsevne',
 					description:
-						'Jeg er en hurtig lærende, og jeg er altid klar til at lære nye ting. Jeg er altid på udkig efter nye udfordringer for at udvide min viden og mine færdigheder.',
+						'Jeg er hurtig til at lære noget nyt og tilpasse mig til nye situationer. Jeg er altid på udkig efter nye udfordringer for at udvide min viden og mine færdigheder.',
 				},
 				{
 					title: 'Kreativitet',
 					description:
-						'Jeg er en kreativ person, og jeg elsker at skabe nye ting. Jeg er altid på udkig efter nye måder at løse problemer på, og jeg er altid klar til at prøve nye ting.',
+						'Jeg er en kreativ person, og jeg elsker at skabe nye ting. Jeg er altid på udkig efter nye måder at løse problemer på.',
 				},
 				{
 					title: 'Samarbejde',
 					description:
-						'Jeg er en god holdspiller, og jeg er altid klar til at hjælpe andre. Jeg er altid på udkig efter nye måder at forbedre mine samarbejdsevner på.',
+						'Jeg er en god holdspiller, og jeg er altid klar til at hjælpe andre.',
 				},
 			],
 		},
@@ -439,7 +438,7 @@ export const INFODK = {
 		},
 		experience: {
 			title: 'Erfaring',
-			intro: 'Jeg er lige nu i gang med at tage min uddannelse og har derfor ikke noget relevant arbejdserfaring. Her er nogle af de projekter jeg har arbejdet på.',
+			intro: 'Jeg er lige nu i gang med at tage min uddannelse og har derfor ikke arbejdserfaring i IT branchen. Jeg har tidligere haft fritidsjob, hvor jeg har lært at have ansvar. Herunder er nogle af de projekter jeg har arbejdet på for nyligt.',
 			button: 'Projekter',
 		},
 	},
@@ -447,12 +446,42 @@ export const INFODK = {
 		content: (
 			<>
 				Bygget fra bunden af{' '}
-				<a className={'font-medium text-slate-300'} href='/portfolio/contact'>yours truly</a> med{' '}
-				<a className={'font-medium text-slate-300'} href='https://vitejs.dev/'>ViteJS</a> og{' '}
-				<a className={'font-medium text-slate-300'} href='https://tailwindcss.com/'>Tailwind CSS</a>, skriftypen
-				er fra <a className={'font-medium text-slate-300'} href='https://rsms.me/inter/'>Inter</a>. Ikoner er fra{' '}
-				<a className={'font-medium text-slate-300'} href='https://icons8.com'>Icons8</a> og{' '}
-				<a className={'font-medium text-slate-300'} href='https://devicon.dev/'>Devicon</a>.
+				<a
+					className={'font-medium text-slate-300'}
+					href='/portfolio/contact'>
+					yours truly
+				</a>{' '}
+				med{' '}
+				<a
+					className={'font-medium text-slate-300'}
+					href='https://vitejs.dev/'>
+					ViteJS
+				</a>{' '}
+				og{' '}
+				<a
+					className={'font-medium text-slate-300'}
+					href='https://tailwindcss.com/'>
+					Tailwind CSS
+				</a>
+				, skriftypen er fra{' '}
+				<a
+					className={'font-medium text-slate-300'}
+					href='https://rsms.me/inter/'>
+					Inter
+				</a>
+				. Ikoner er fra{' '}
+				<a
+					className={'font-medium text-slate-300'}
+					href='https://icons8.com'>
+					Icons8
+				</a>{' '}
+				og{' '}
+				<a
+					className={'font-medium text-slate-300'}
+					href='https://devicon.dev/'>
+					Devicon
+				</a>
+				.
 			</>
 		),
 	},
@@ -461,11 +490,8 @@ export const INFODK = {
 		title: (
 			<>
 				<div className='text-slate-300 text-center mb-10'>
-					Jeg er altid åben for at diskutere nye projekter, kreative
+					Jeg er altid klar til at diskutere nye projekter, kreative
 					ideer eller muligheder.
-				</div>
-				<div className='text-center text-slate-300 mb-10'>
-					Tøv ikke med at kontakte mig!
 				</div>
 			</>
 		),
@@ -492,7 +518,7 @@ export const INFODK = {
 				<p>
 					En pokedex web applikation bygget med React. Du kan søge
 					efter en pokemon og se dens detaljer. Dataene kommer fra
-					PokeAPIen. Der er også en Quiz hvor du kan se om du er en
+					PokeAPIen. Der er også en Quiz, hvor du kan se om du er en
 					ægte pokemon fan!
 				</p>
 			),
@@ -505,16 +531,16 @@ export const INFODK = {
 			title: 'FugtHuset',
 			description: (
 				<p>
-					Jeg arbejder lige nu på en hjemmeside til en fiktiv
-					virksomhed, der har brug for et system til at overvåge og
-					holde styr på deres drivhusplanter. Systemet er en 3-lags
-					arkitektur, hvor frontend er bygget med React, backend er
-					skrevet med NextJS og TypeScript og gemmer data fra
-					drivhusene i en Prisma-relationsdatabase. Backend'en bruger
-					microservices, der er hostet på Google Cloud Hosting, og
-					kommunikerer med frontend via en RESTful API. Derudover får
-					backend'en data fra en IoT-enhed, hvor vi har skrevet
-					softwaren i C på en ATMEGA-mikrocontroller.
+					Jeg arbejder lige nu i et team på 12 hvor vi udvikler et
+					system til en fiktiv virksomhed, der har brug for et system
+					til at overvåge og holde styr på deres drivhusplanter.
+					Systemet er en 3-lags arkitektur, hvor frontend er bygget
+					med React, backend er skrevet med NextJS og TypeScript og
+					gemmer data fra drivhusene i en Prisma-relationsdatabase.
+					Backend'en bruger microservices, der er hostet på Google
+					Cloud Hosting, og kommunikerer med frontend via en RESTful
+					API. Derudover får backend'en data fra en IoT-enhed, hvor vi
+					har skrevet softwaren i C på en ATMEGA-mikrocontroller.
 				</p>
 			),
 			logo: '2',
