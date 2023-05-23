@@ -42,16 +42,16 @@ export const INFO = {
 					<div className='tracking-wide font-bold text-4xl mb-10'>
 						<p>
 							Full stack software engineer student with a passion
-							for learning.
+							for learning/to learn.
 						</p>
 					</div>
 					<div className='max-w-lg font-medium'>
 						<p>
 							Studying to become a software engineer at VIA
 							University College. Designing and building various
-							software solutions that are robust and made with the
+							software solutions that are robust, made with the
 							best practices and where quality code that is easy
-							to read and maintain is the goal.
+							to read and maintain is a priority.
 						</p>
 					</div>
 				</>
@@ -64,7 +64,7 @@ export const INFO = {
 				<>
 					<p className='mb-2'>
 						Hello! My name is Jakob and I love solving problems. I
-						have a toolbox and mindset that enables me to do
+						have a toolbox and a mindset that enables me to do
 						anything I set my mind to. I am passionate about always
 						learning something new and expanding my toolbox.
 					</p>
@@ -77,7 +77,7 @@ export const INFO = {
 					<p className='mb-2'>
 						The software world is always evolving, but with my
 						foundation and passion for learning, I am always ready
-						adapt.
+						to adapt.
 					</p>
 					<p className='mb-2'>
 						I look forward to being part of a team of skilled
@@ -92,7 +92,7 @@ export const INFO = {
 			text: (
 				<p>
 					I have an insatiable curiosity that drives me to explore a
-					wide range of topics. I love delving deep into things and
+					wide range of topics. I love diving deep into things and
 					geek about the details, and I enjoy sharing my knowledge or
 					learning from others. My passion for cooking often leads me
 					to experiment with new recipes in the kitchen and explore
@@ -115,13 +115,6 @@ export const INFO = {
 					with agile project management.
 				</p>,
 				<p className='mb-2'>
-					I am working on a <a>project</a> with a large group of
-					students where we are designing and building a software
-					solution for a mock company <a> Fugt Huset</a>. The focus
-					with this project is collaborating on a project that has
-					multiple teams and system integration.
-				</p>,
-				<p className='mb-2'>
 					In my spare time I am always working on a project. being
 					able to get a crazy idea and will it into existence is what
 					I love about being an engineer. To see what I am currently
@@ -141,7 +134,7 @@ export const INFO = {
 						list: (
 							<>
 								<li>Software Development</li>
-								<li>Programming languages</li>
+								<li>Programming</li>
 								<li>Software Architecture</li>
 								<li>Web Development</li>
 								<li>Backend Development</li>
@@ -173,13 +166,13 @@ export const INFO = {
 					},
 				],
 			},
-			buttonpdf: 'Grab a copy',
+			buttonpdf: 'Grab a pdf',
 		},
 		skills: {
 			title: 'My Toolbox',
-			intro: 'I have a wide range of tools that i am familiar with and I am always learning new things. Here are some of my skills:',
+			intro: 'I have a wide range of tools that i am familiar with and I am always striving to learn new things and sharpen my skills. Below are some of my skills and tools that I am familiar with:',
 			languages: {
-				title: 'Programming Languages',
+				title: 'Programming',
 				entries: [
 					{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
@@ -307,17 +300,6 @@ export const INFO = {
 					},
 				],
 			},
-			development: {
-				title: 'Udvikling',
-				entries: [
-					'Agile development',
-					'Scrum',
-					'DevObs',
-					'CI/CD',
-					'Kanpan',
-					'Unified process',
-				],
-			},
 		},
 		softwareSkills: {
 			title: 'Skills',
@@ -330,16 +312,17 @@ export const INFO = {
 								I have a comprehensive understanding of the
 								software development lifecycle, including
 								requirements gathering, analysis, design,
-								implementation, testing, and deployment. I
-								prioritize each phase to ensure smooth project
-								execution and successful delivery.
+								implementation, testing, and deployment. I am
+								familiar agile development and Scrum to ensure
+								smooth project execution and successful
+								delivery.
 							</p>
 						),
 						tags: ['Agile', 'Scrum', 'DevObs', 'CI/CD'],
 					},
 				},
 				{
-					title: 'Programming languages',
+					title: 'Programming',
 					content: {
 						text: (
 							<p>
@@ -348,8 +331,9 @@ export const INFO = {
 								me to adapt to various project requirements and
 								solve complex coding challenges efficiently. I
 								understand the importance of writing code that
-								is easy to read and maintain and that 10 great
-								lines of code are better than 1000 bad ones.
+								is easy to read and maintain to minimize
+								complications and to enable great cooporation
+								between team members.
 							</p>
 						),
 						tags: ['SOLID', 'JavaScript', 'Java', 'C#'],
@@ -360,12 +344,11 @@ export const INFO = {
 					content: {
 						text: (
 							<p>
-								With a good knowledge of software architectures
-								and systems, such as client-server,
+								With a good knowledge of software architecture
+								and different system designs, such as client-server,
 								microservices, and distributed systems, I can
 								design and develop scalable solutions tailored
-								to specific needs. My expertise ensures robust
-								and efficient system design and implementation.
+								to specific needs.
 							</p>
 						),
 						tags: ['Client/Server', 'Layered', 'Microservices'],
@@ -401,7 +384,7 @@ export const INFO = {
 								applications.
 							</p>
 						),
-						tags: ['Java', 'SQL', 'API', 'Database', 'Design'],
+						tags: ['Java', 'SQL', 'API', 'Database Design'],
 					},
 				},
 			],
@@ -445,7 +428,7 @@ export const INFO = {
 					subtitle: 'VIA University College',
 					date: '2020 - 2023',
 					description:
-						'Currently studying to become a software engineer at VIA University College. I am in my fourth semester where the focus is on developing a software solutions with system integration and focusing on working in a big team with agile project management.',
+						'Studying to become a software engineer at VIA University College. Designing and building various software solutions that are robust, made with the best practices and where quality code that is easy to read and maintain is a priority.',
 				},
 				{
 					title: 'Higher Technical Examination',
@@ -525,16 +508,13 @@ export const INFO = {
 			description: (
 				<p>
 					A social media platform designed to connect people with a
-					shared goal of doing somethign good for the environment. The
-					platform is designed to make it easy to create and join
-					events, and to share your experiences with others. The
+					shared goal of doing something good for the environment. The
 					platform is using a Blazor frontend, a RESTful web API
-					writting in Java and strong backend written in C# with EF
-					core.
+					written in Java and a strong backend written in C# with Entity framework core with a postgresSQL database to store data.
 				</p>
 			),
 			logo: '0',
-			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful'],
+			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net'],
 			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 
@@ -542,8 +522,8 @@ export const INFO = {
 			title: 'Pokedex',
 			description: (
 				<p>
-					A Pokedex app that allows you to search and filter pokemon
-					to and view their stats and evolutions. The app is made with
+					A Pokedex web application that allows you to search and filter pokemon
+					and to view their stats and evolutions. The app is made with
 					React and uses the PokeAPI to fetch data. In addition you
 					can take a quiz and see if you are a true pokemon fan!
 				</p>
@@ -557,16 +537,12 @@ export const INFO = {
 			title: 'FugtHuset',
 			description: (
 				<p>
-					A website for a mock company that needs a system to monitor
-					and keep track of their greenhouse plants. The system is a 3
-					tier system with the frontend built using React, the backend
+					I am currently working on a website for a mock company that needs a system to monitor
+					and keep track of their greenhouse plants. The frontend is built using React, the backend
 					is written using NextJS and typescript and stores the data
-					from the greenhouses in a Prisma relational database. The is
-					backend uses microservices hosted on google cloud hosting
-					and using RESTful API to communicate with the frontend. In
-					addition to this the backend get data from an iot device
-					where we wrote the software in C on an ATMEGA
-					microcontroller.
+					from the greenhouses in a Prisma relational database. The backend uses cloud hosting
+					and a RESTful API to communicate with the frontend. In
+					addition to this the backend gets sensor data from an IOT device.
 				</p>
 			),
 			logo: '2',
@@ -575,5 +551,5 @@ export const INFO = {
 		},
 	],
 	projectIntro:
-		'Here are some of my projects! I am working on getting more of my projects hosted and displayed here!',
+		'Here are a few of my projects! I am working on getting more of my projects hosted and displayed here!',
 };

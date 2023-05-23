@@ -22,7 +22,7 @@ export const INFODK = {
 		},
 
 		{
-			label: 'Resume',
+			label: 'Resumé',
 			path: '/resume',
 		},
 		{
@@ -51,8 +51,8 @@ export const INFODK = {
 						<p>
 							Jeg studerer til softwareingeniør på VIA University
 							College. Jeg designer og bygger forskellige
-							softwareløsninger, der er robuste og lavet med
-							bedste praksis, hvor det er målet at have kode af
+							softwareløsninger, der er robuste og lavet med de
+							bedste praksis og hvor det er målet at have kode af
 							høj kvalitet, der er nem at læse og vedligeholde.
 						</p>
 					</div>
@@ -68,8 +68,8 @@ export const INFODK = {
 						Hej! Mit navn er Jakob, og jeg elsker at løse problemer.
 						Jeg har et værktøjssæt og en indstilling, der gør det
 						muligt for mig at klare alt, hvad jeg sætter mig for.
-						Jeg er passioneret omkring altid at lære noget nyt og
-						udvide mit værktøjssæt.
+						Jeg er altid klar til at lære noget nyt og udvide mit
+						værktøjssæt.
 					</p>
 					<p className='mb-2'>
 						Jeg elsker at arbejde i et team med fokus på god
@@ -78,14 +78,14 @@ export const INFODK = {
 						løsninger til dem.
 					</p>
 					<p className='mb-2'>
-						Softwareverdenen udvikler sig altid, men med min
+						Softwareverdenen udvikler sig hele tiden, men med min
 						grundlæggende viden og passion for læring er jeg altid
 						klar til at tilpasse mig.
 					</p>
 					<p className='mb-2'>
 						Jeg ser frem til at være en del af et hold dygtige
-						kolleger, der designer, implementerer, tester og
-						implementerer løsninger af høj kvalitet.
+						kolleger, der designer, implementerer, tester og leverer
+						løsninger af høj kvalitet.
 					</p>
 				</>
 			),
@@ -96,19 +96,19 @@ export const INFODK = {
 				<p>
 					Jeg har en umættelig nysgerrighed, der driver mig til at
 					udforske en bred vifte af emner. Jeg elsker at dykke dybt
-					ned i tingene og geek'e ud over detaljerne, og jeg nyder at
-					dele min viden eller lære af andre. Min passion for
-					madlavning fører mig ofte til at eksperimentere med nye
-					opskrifter i køkkenet og udforske nye ingredienser og
-					kulinariske kulturer. Jeg finder også dyb tilfredsstillelse
-					i at forbinde med naturen, om det så er gennem en stille
-					gåtur eller i min egen lejlighed, hvor jeg nyder at passe på
-					min samling af unikke planter og se dem vokse og blomstre.
+					ned i tingene og nørde over detaljerne, og jeg nyder at dele
+					min viden eller lære af andre. Min passion for madlavning
+					fører mig ofte til at eksperimentere med nye opskrifter i
+					køkkenet og udforske nye ingredienser og kulturer. Jeg
+					finder også dyb tilfredsstillelse i at forbinde med naturen,
+					om det er gennem en stille gåtur eller i min egen lejlighed,
+					hvor jeg nyder at passe min samling af unikke planter og se
+					dem vokse og blomstre.
 				</p>
 			),
 		},
 		current: {
-			title: 'Hvad laver jeg lige nu?',
+			title: 'Hvad laver jeg nu?',
 			text: [
 				<p className='mb-2'>
 					Jeg studerer i øjeblikket til softwareingeniør på{' '}
@@ -118,17 +118,9 @@ export const INFODK = {
 					projektstyring.
 				</p>,
 				<p className='mb-2'>
-					Jeg arbejder på et <a>projekt</a> med en stor gruppe
-					studerende, hvor vi designer og bygger en softwareløsning
-					til en fiktiv virksomhed, <a>Fugt Huset</a>. Fokus i dette
-					projekt er samarbejde på et projekt, der involverer flere
-					teams og systemintegration.
-				</p>,
-				<p className='mb-2'>
-					I min fritid arbejder jeg altid på et projekt. At kunne få
-					en skør idé og føre den til virkelighed er det, jeg elsker
-					ved at være ingeniør. Hvis du vil se, hvad jeg arbejder på
-					lige nu, kan du tjekke min <a>projekter</a>-side.
+					I min fritid arbejder jeg altid på et nyt projekt. At kunne
+					få en skør idé og føre den til virkelighed er det, jeg
+					elsker ved at være ingeniør.
 				</p>,
 			],
 		},
@@ -136,7 +128,7 @@ export const INFODK = {
 
 	resume: {
 		hero: {
-			title: 'Resume',
+			title: 'Resumé',
 			TOC: {
 				content: [
 					{
@@ -144,7 +136,7 @@ export const INFODK = {
 						list: (
 							<>
 								<li>Software Udvikling</li>
-								<li>Programmingssprog</li>
+								<li>Programming</li>
 								<li>Softwarearkitektur</li>
 								<li>Webudvikling</li>
 								<li>Backend-udvikling</li>
@@ -182,7 +174,7 @@ export const INFODK = {
 			title: 'Min Værktøjskasse',
 			Intro: 'Her er en liste af noget af det værktøj jeg har arbejdet med. Jeg er altid klar til at lære noget nyt!',
 			languages: {
-				title: 'Programmeringssprog',
+				title: 'Programmering',
 				entries: [
 					{
 						image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
@@ -310,17 +302,6 @@ export const INFODK = {
 					},
 				],
 			},
-			development: {
-				title: 'Udvikling',
-				entries: [
-					'Agile development',
-					'Scrum',
-					'DevObs',
-					'CI/CD',
-					'Kanpan',
-					'Unified process',
-				],
-			},
 		},
 		softwareSkills: {
 			title: 'Færdigheder',
@@ -330,12 +311,13 @@ export const INFODK = {
 					content: {
 						text: (
 							<p>
-								Jeg har en omfattende forståelse af
-								softwareudviklingslivscyklussen, herunder
+								Jeg har en god forståelse af
+								softwareudviklingens proces, herunder
 								kravindsamling, analyse, design, implementering,
-								test og implementering. Jeg prioriterer hver
-								fase for at sikre en problemfri projektudførelse
-								og succesfuld levering.
+								test og levering. Jeg har erfaring med at
+								arbejde agilt og arbejde med Scrumt til sikre en
+								problemfri projektudførelse og succesfuld
+								levering.
 							</p>
 						),
 						tags: ['Agile', 'Scrum', 'DevObs', 'CI/CD'],
@@ -346,13 +328,12 @@ export const INFODK = {
 					content: {
 						text: (
 							<p>
-								Jeg er dygtig i flere programmeringsparadigmer
-								og sprog. Denne alsidighed giver mig mulighed
-								for at tilpasse mig forskellige projektkrav og
-								løse komplekse kodningsudfordringer effektivt.
-								Jeg forstår vigtigheden af at skrive kode, der
-								er nem at læse og vedligeholde, og at 10 gode
-								linjer kode er bedre end 1000 dårlige.
+								Jeg er dygtig i flere programmeringssprog og
+								paradigmer. Dette giver mig mulighed for at
+								tilpasse mig forskellige projektkrav og løse
+								komplekse kode udfordringer. Jeg forstår
+								vigtigheden af at skrive kode der er nem at læse
+								og vedligeholde for at sikre god samarbejdelse.
 							</p>
 						),
 						tags: ['SOLID', 'JavaScript', 'Java', 'C#'],
@@ -367,8 +348,7 @@ export const INFODK = {
 								systemer som klient-server, microservices og
 								distribuerede systemer kan jeg designe og
 								udvikle skalerbare løsninger skræddersyet til
-								specifikke behov. Min ekspertise sikrer robust
-								og effektiv systemdesign og implementering.
+								specifikke behov.
 							</p>
 						),
 						tags: ['Klient/server', 'Lagdelt', 'Microservices'],
@@ -398,11 +378,8 @@ export const INFODK = {
 								Med en solid baggrund i backend-udvikling kan
 								jeg opbygge pålidelige og skalerbare API'er. Jeg
 								har praktisk erfaring med at designe og
-								implementere databasetier for at sikre effektiv
-								lagring og hentning af data. Det er vigtigt, at
-								backend-systemer integreres problemfrit med
-								frontend-komponenter, hvilket resulterer i
-								sammenhængende applikationer.
+								implementere databaser for at sikre effektiv
+								lagring og hentning af data.
 							</p>
 						),
 						tags: ['Java', 'SQL', 'API', 'Database', 'Design'],
@@ -456,7 +433,7 @@ export const INFODK = {
 					subtitle: 'Herningsholm erhvervsgymnasium',
 					date: '2017 - 2020',
 					description:
-						'Jeg gik på HTX på Herningsholm Erhvervsgymnasium. Jeg lærte om softwareudvikling, elektronik, matematik, fysik og engelsk. Jeg lærte også om projektstyring og samarbejde i store teams.',
+						'På HTX lærte jeg om softwareudvikling, elektronik, matematik og fysik. Jeg lærte også om projektstyring og samarbejde i store grupper.',
 				},
 			],
 		},
@@ -470,12 +447,12 @@ export const INFODK = {
 		content: (
 			<>
 				Bygget fra bunden af{' '}
-				<a href='/portfolio/contact'>yours truly</a> med{' '}
-				<a href='https://vitejs.dev/'>ViteJS</a> og{' '}
-				<a href='https://tailwindcss.com/'>Tailwind CSS</a>, skriftypen
-				er fra <a href='https://rsms.me/inter/'>Inter</a>. Ikoner er fra{' '}
-				<a href='https://icons8.com'>Icons8</a> og{' '}
-				<a href='https://devicon.dev/'>Devicon</a>.
+				<a className={'font-medium text-slate-300'} href='/portfolio/contact'>yours truly</a> med{' '}
+				<a className={'font-medium text-slate-300'} href='https://vitejs.dev/'>ViteJS</a> og{' '}
+				<a className={'font-medium text-slate-300'} href='https://tailwindcss.com/'>Tailwind CSS</a>, skriftypen
+				er fra <a className={'font-medium text-slate-300'} href='https://rsms.me/inter/'>Inter</a>. Ikoner er fra{' '}
+				<a className={'font-medium text-slate-300'} href='https://icons8.com'>Icons8</a> og{' '}
+				<a className={'font-medium text-slate-300'} href='https://devicon.dev/'>Devicon</a>.
 			</>
 		),
 	},
@@ -505,7 +482,7 @@ export const INFODK = {
 				</p>
 			),
 			logo: '0',
-			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful'],
+			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net', 'SQL'],
 			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 
@@ -514,9 +491,9 @@ export const INFODK = {
 			description: (
 				<p>
 					En pokedex web applikation bygget med React. Du kan søge
-					efter en pokemon og se dens detaljer. Dataen kommer fra
-					PokeAPI. Der er også en Quiz hvor du kan se om du er en ægte
-					pokemon fan!
+					efter en pokemon og se dens detaljer. Dataene kommer fra
+					PokeAPIen. Der er også en Quiz hvor du kan se om du er en
+					ægte pokemon fan!
 				</p>
 			),
 			logo: '1',
@@ -528,16 +505,16 @@ export const INFODK = {
 			title: 'FugtHuset',
 			description: (
 				<p>
-					En hjemmeside til en fiktiv virksomhed, der har brug for et
-					system til at overvåge og holde styr på deres
-					drivhusplanter. Systemet er en 3-lags arkitektur, hvor
-					frontend er bygget med React, backend er skrevet med NextJS
-					og TypeScript og gemmer data fra drivhusene i en
-					Prisma-relationsdatabase. Backend'en bruger microservices,
-					der er hostet på Google Cloud Hosting, og kommunikerer med
-					frontend via en RESTful API. Derudover får backend'en data
-					fra en IoT-enhed, hvor vi har skrevet softwaren i C på en
-					ATMEGA-mikrocontroller.
+					Jeg arbejder lige nu på en hjemmeside til en fiktiv
+					virksomhed, der har brug for et system til at overvåge og
+					holde styr på deres drivhusplanter. Systemet er en 3-lags
+					arkitektur, hvor frontend er bygget med React, backend er
+					skrevet med NextJS og TypeScript og gemmer data fra
+					drivhusene i en Prisma-relationsdatabase. Backend'en bruger
+					microservices, der er hostet på Google Cloud Hosting, og
+					kommunikerer med frontend via en RESTful API. Derudover får
+					backend'en data fra en IoT-enhed, hvor vi har skrevet
+					softwaren i C på en ATMEGA-mikrocontroller.
 				</p>
 			),
 			logo: '2',
@@ -546,9 +523,9 @@ export const INFODK = {
 		},
 	],
 	projectIntro: (
-		<>
+		<p>
 			Her er nogle af mine projekter. Jeg arbejder på at få flere af mine
 			projekter vist her.
-		</>
+		</p>
 	),
 };
