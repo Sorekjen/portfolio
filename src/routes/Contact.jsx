@@ -27,12 +27,9 @@ function Contact() {
 							</IconContext.Provider>
 						</a>
 						<a>
-							<Link
-								to='#'
-								onClick={(e) => {
-									window.location.href = 'mailto:sorenkjellerup@gmail.com';
-									e.preventDefault();
-								}}>
+							<a
+								href='mailto:sorenkjellerup@gmail.com'
+								>
 								<IconContext.Provider
 									value={{
 										color: '#ff5d5d',
@@ -41,7 +38,7 @@ function Contact() {
 									}}>
 									<MdEmail />
 								</IconContext.Provider>
-							</Link>
+							</a>
 						</a>
 						<a
 							href={

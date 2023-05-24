@@ -4,7 +4,7 @@ export default function ({ content, handleClick }) {
 	return (
 		<div
 			className={
-				'2xl:mt-28 md:mt-12 sm:mt-0 flex flex-col justify-center min-h-[90vh]'
+				'mt-28 md:mt-12 2xl:mt-0 flex flex-col justify-center min-h-[90vh]'
 			}>
 			<p className='mx-auto font-bold text-6xl mb-10 h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
 				{content.title}

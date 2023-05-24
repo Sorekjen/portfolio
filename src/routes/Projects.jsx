@@ -13,7 +13,7 @@ function Projects() {
 			</div>
 			<ul className=''>
 				{content?.projects.map((entry, index) => {
-					if (entry.title === "Event4u") return (
+					if (entry.title === "Event4U") return (
 						<SectionWrapper>
 						<Project
 							key={entry.description}
