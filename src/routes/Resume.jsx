@@ -45,7 +45,7 @@ export default function () {
 			key={content.language}
 			className='content-center w-full p-4 md:p-8'>
 			<HeroWrapper>
-				<ResumeHero handleClick={handleClick} content={content.resume.hero}/>
+				<ResumeHero handleClick={handleClick} content={content.resume.hero} language={content.language}/>
 			</HeroWrapper>
 			<section ref={sRef} className='pt-24'>
 				<SoftwareSkillsContainer
