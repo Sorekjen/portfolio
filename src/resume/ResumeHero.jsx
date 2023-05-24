@@ -1,6 +1,8 @@
-import pdf from '../assets/resume.pdf';
+import pdfEn from '../assets/pdf-en.pdf';
+import pdfDk from '../assets/pdf-dk.pdf';
 
 export default function ({ content, handleClick }) {
+	const pdf = content.language === 'en' ? pdfEn : pdfDk;
 	return (
 		<div
 			className={
