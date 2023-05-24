@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../common/Heading';
 import Break from '../common/Break';
 import Text from '../common/Text';
+import { Link } from 'react-router-dom';
 
 export default function ({ experience}) {
     return (
