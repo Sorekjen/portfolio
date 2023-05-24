@@ -536,7 +536,7 @@ export const INFO = {
 			),
 			logo: '1',
 			tags: ['React', 'PokeAPI'],
-			link: 'https://Sorekjen.github.io/pokedex',
+			link: 'https://sorekjen.github.io/pokedex',
 		},
 
 
@@ -554,7 +554,7 @@ export const INFO = {
 			),
 			logo: '0',
 			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net'],
-			link: 'https://github.com/Sorekjen/sep3-3vent4u',
+			link: '',
 		},
 	],
 	projectIntro:

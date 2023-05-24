@@ -532,7 +532,7 @@ export const INFODK = {
 			),
 			logo: '1',
 			tags: ['React', 'PokeAPI'],
-			link: 'https://Sorekjen.github.io/pokedex',
+			link: 'https://sorekjen.github.io/pokedex',
 		},
 		{
 			title: 'Event4U',
@@ -546,7 +546,7 @@ export const INFODK = {
 			),
 			logo: '0',
 			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net', 'SQL'],
-			link: 'https://github.com/Sorekjen/sep3-3vent4u',
+			link: '',
 		},
 
 		
