@@ -23,12 +23,12 @@ function Projects() {
 					); else return (
 				
 					<SectionWrapper>
-						<Link to={entry.link}>
+						<a href={entry.link}>
 						<Project
 							key={entry.description}
 							entry={entry}
 						/>
-						</Link>
+						</a>
 					</SectionWrapper>
 				)})}
 			</ul>
