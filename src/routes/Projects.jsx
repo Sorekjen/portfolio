@@ -11,8 +11,17 @@ function Projects() {
 			<div className='text-slate-300 p-4 md:p-0 md:pt-24 font-bold text-center pt-24'>
 				{content?.projectIntro}
 			</div>
-			<ul className='hover:opacity-100 transition-all hover:transition-all'>
-				{content?.projects.map((entry, index) => (
+			<ul className=''>
+				{content?.projects.map((entry, index) => {
+					if (entry.title === "Event4u") return (
+						<SectionWrapper>
+						<Project
+							key={entry.description}
+							entry={entry}
+						/>
+					</SectionWrapper>
+					); else return (
+				
 					<SectionWrapper>
 						<Link to={entry.link}>
 						<Project
@@ -21,7 +30,7 @@ function Projects() {
 						/>
 						</Link>
 					</SectionWrapper>
-				))}
+				)})}
 			</ul>
 		</div>
 	);

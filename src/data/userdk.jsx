@@ -17,7 +17,7 @@ export const INFODK = {
 			path: '/',
 		},
 		{
-			label: 'Portfolie',
+			label: 'Portfolio',
 			path: '/projects',
 		},
 
@@ -38,10 +38,10 @@ export const INFODK = {
 					<div className='mb-4 tracking-widest'>
 						<p>Hej, mit navn er</p>
 					</div>
-					<div className='font-bold text-6xl mb-4 h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
+					<div className='font-bold text-4xl 2xl:text-6xl mb-4 h-10 2xl:h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
 						<p>Jakob Kjellerup</p>
 					</div>
-					<div className='tracking-wide font-bold text-4xl mb-10'>
+					<div className='tracking-wide font-bold text-2xl 2xl:text-4xl mb-4 2xl:mb-10'>
 						<p>
 							Full stack softwareingeniør studerende der brænder
 							for at lære.
@@ -491,42 +491,15 @@ export const INFODK = {
 			<>
 				<div className='text-slate-300 text-center mb-10'>
 					Jeg er altid klar til at diskutere nye projekter, kreative
-					ideer eller muligheder.
+					ideer eller nye muligheder.
+				</div>
+				<div className='text-center text-slate-300 underline'>
+					316471@via.dk
 				</div>
 			</>
 		),
 	},
 	projects: [
-		{
-			title: 'Event4U',
-			description: (
-				<p>
-					En webapplikation, der giver brugerne mulighed for at
-					oprette og deltage i begivenheder. Bygget med Blazor og C#
-					med en RESTful API skrevet i Java. Bagved ligger en
-					database, der bruger EF Core til at gemme data.
-				</p>
-			),
-			logo: '0',
-			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net', 'SQL'],
-			link: 'https://github.com/Sorekjen/sep3-3vent4u',
-		},
-
-		{
-			title: 'Pokedex',
-			description: (
-				<p>
-					En pokedex web applikation bygget med React. Du kan søge
-					efter en pokemon og se dens detaljer. Dataene kommer fra
-					PokeAPIen. Der er også en Quiz, hvor du kan se om du er en
-					ægte pokemon fan!
-				</p>
-			),
-			logo: '1',
-			tags: ['React', 'PokeAPI'],
-			link: 'https://Sorekjen.github.io/pokedex',
-		},
-
 		{
 			title: 'FugtHuset',
 			description: (
@@ -547,6 +520,36 @@ export const INFODK = {
 			tags: ['React', 'ViteJS', 'Prisma', 'RESTful', 'C'],
 			link: 'https://github.com/SW-SEP4-S23',
 		},
+		{
+			title: 'Pokedex',
+			description: (
+				<p>
+					En pokedex web applikation bygget med React. Du kan søge
+					efter en pokemon og se dens detaljer. Dataene kommer fra
+					PokeAPIen. Der er også en Quiz, hvor du kan se om du er en
+					ægte pokemon fan!
+				</p>
+			),
+			logo: '1',
+			tags: ['React', 'PokeAPI'],
+			link: 'https://Sorekjen.github.io/pokedex',
+		},
+		{
+			title: 'Event4U',
+			description: (
+				<p>
+					En webapplikation, der giver brugerne mulighed for at
+					oprette og deltage i begivenheder. Bygget med Blazor og C#
+					med en RESTful API skrevet i Java. Bagved ligger en
+					database, der bruger EF Core til at gemme data.
+				</p>
+			),
+			logo: '0',
+			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net', 'SQL'],
+			link: 'https://github.com/Sorekjen/sep3-3vent4u',
+		},
+
+		
 	],
 	projectIntro: (
 		<p>

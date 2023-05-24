@@ -36,10 +36,10 @@ export const INFO = {
 					<div className='mb-4 tracking-widest'>
 						<p>Hi, my name is</p>
 					</div>
-					<div className='font-bold text-6xl mb-4 h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
+					<div className='font-bold text-4xl 2xl:text-6xl mb-4 h-10 2xl:h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
 						<p>Jakob Kjellerup</p>
 					</div>
-					<div className='tracking-wide font-bold text-4xl mb-10'>
+					<div className='tracking-wide font-bold text-2xl 2xl:text-4xl mb-4 2xl:mb-10'>
 						<p>
 							Full stack software engineer student with a passion
 							for learning/to learn.
@@ -496,45 +496,13 @@ export const INFO = {
 					I am always open to discussing new projects, creative ideas
 					or opportunities to be part of your visions.
 				</div>
-				<div className='text-center text-slate-300 mb-10'>
-					Dont hesitate to contact me!
+				<div className='text-center text-slate-300 underline'>
+					316471@via.dk
 				</div>
 			</>
 		),
 	},
 	projects: [
-		{
-			title: 'Event4U',
-			description: (
-				<p>
-					A social media platform designed to connect people with a
-					shared goal of doing something good for the environment. The
-					platform is using a Blazor frontend, a RESTful web API
-					written in Java and a strong backend written in C# with
-					Entity framework core and a postgresSQL database to store
-					data.
-				</p>
-			),
-			logo: '0',
-			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net'],
-			link: 'https://github.com/Sorekjen/sep3-3vent4u',
-		},
-
-		{
-			title: 'Pokedex',
-			description: (
-				<p>
-					A Pokedex web application that allows you to search and
-					filter pokemon and to view their stats and evolutions. The
-					app is made with React and uses the PokeAPI to fetch data.
-					In addition you can take a quiz and see if you are a true
-					pokemon fan!
-				</p>
-			),
-			logo: '1',
-			tags: ['React', 'PokeAPI'],
-			link: 'https://Sorekjen.github.io/pokedex',
-		},
 
 		{
 			title: 'FugtHuset',
@@ -553,6 +521,40 @@ export const INFO = {
 			logo: '2',
 			tags: ['React', 'ViteJS', 'Prisma', 'REST', 'C'],
 			link: 'https://github.com/SW-SEP4-S23',
+		},
+
+		{
+			title: 'Pokedex',
+			description: (
+				<p>
+					A Pokedex web application that allows you to search and
+					filter pokemon and to view their stats and evolutions. The
+					app is made with React and uses the PokeAPI to fetch data.
+					In addition you can take a quiz and see if you are a true
+					pokemon fan!
+				</p>
+			),
+			logo: '1',
+			tags: ['React', 'PokeAPI'],
+			link: 'https://Sorekjen.github.io/pokedex',
+		},
+
+
+		{
+			title: 'Event4U',
+			description: (
+				<p>
+					A social media platform designed to connect people with a
+					shared goal of doing something good for the environment. The
+					platform is using a Blazor frontend, a RESTful web API
+					written in Java and a strong backend written in C# with
+					Entity framework core and a postgresSQL database to store
+					data.
+				</p>
+			),
+			logo: '0',
+			tags: ['C#', 'Blazor', 'Java', 'EFC', 'RESTful', '.Net'],
+			link: 'https://github.com/Sorekjen/sep3-3vent4u',
 		},
 	],
 	projectIntro:

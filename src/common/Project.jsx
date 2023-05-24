@@ -7,7 +7,7 @@ import SkillTag from './SkillTag';
 export default function Project({ entry }) {
 	const images = [event, pokedex, fugthuset];
 	return (
-		<li key={entry.description} className='flex flex-col md:odd:flex-row-reverse md:even:flex-row my-10 hover:bg-slate-800 rounded hover:shadow-inner p-5 transition-all hover:transition-all opacity-1'>
+		<li key={entry.description} className={`flex flex-col md:odd:flex-row-reverse md:even:flex-row my-10 ${entry.title !== "Event4U" ? "hover:bg-slate-800  rounded hover:shadow-inner cursor-pointer" : " cursor-default"} p-5 transition-all hover:transition-all opacity-1`}>
 			<div className='h-full flex flex-col mb-10 px-5'>
 				<div className='text-slate-200 w-full font-medium text-lg'>
 					{entry.title}
@@ -26,7 +26,7 @@ export default function Project({ entry }) {
 			</div>
 			<div className='w-48 mx-auto'>
 				<img
-					className=' w-48 max-w-lg border-slate-700 hover:border-slate-400 transition-all hover:transition-all hover:scale-110 border-2 rounded-sm'
+					className=' w-48 max-w-lg border-slate-700 border-2 rounded-sm'
 					src={images[entry.logo]}
 				/>
 				</div>

@@ -17,7 +17,7 @@ export default function About() {
 
 	console.log(content)
 	return (
-		<div key={content.language} className='p-4 md:p-0'>
+		<div key={content.language} className='p-4 2xl:p-0'>
 			{content?.about && (
 				<>
 					<section  className='min-h-screen flex flex-col justify-center'>
