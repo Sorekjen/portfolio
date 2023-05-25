@@ -22,6 +22,5 @@ export default function ({ experience}) {
             </Link>
             </div>
             <Break />
-
     </>);
 }

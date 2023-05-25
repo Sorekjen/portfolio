@@ -423,14 +423,14 @@ export const INFODK = {
 				{
 					title: 'Softwareingeniør',
 					subtitle: 'VIA University College',
-					date: '2020 - 2023',
+					date: '2021 - 2025',
 					description:
 						'Jeg studerer til softwareingeniør på VIA University College. Jeg er på fjerde semester, hvor fokus er på at udvikle softwareløsninger med systemintegration og arbejde i store teams med agil projektstyring.',
 				},
 				{
 					title: 'HTX',
 					subtitle: 'Herningsholm erhvervsgymnasium',
-					date: '2017 - 2020',
+					date: '2018 - 2021',
 					description:
 						'På HTX lærte jeg om softwareudvikling, elektronik, matematik og fysik. Jeg lærte også om projektstyring og samarbejde i store grupper.',
 				},

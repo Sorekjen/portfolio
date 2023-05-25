@@ -41,8 +41,7 @@ export const INFO = {
 					</div>
 					<div className='tracking-wide font-bold text-2xl 2xl:text-4xl mb-4 2xl:mb-10'>
 						<p>
-							Full stack software engineer student with a passion
-							for learning/to learn.
+							Full stack software engineer student with a passion for learning.
 						</p>
 					</div>
 					<div className='max-w-lg font-medium'>
@@ -426,14 +425,14 @@ export const INFO = {
 				{
 					title: 'Software Engineering',
 					subtitle: 'VIA University College',
-					date: '2020 - 2023',
+					date: '2021 - 2025',
 					description:
 						'Studying to become a software engineer at VIA University College. Designing and building various software solutions that are robust, made with the best practices and where quality code that is easy to read and maintain is a priority.',
 				},
 				{
 					title: 'Higher Technical Examination',
 					subtitle: 'Herningsholm erhvervsgymnasium',
-					date: '2017 - 2020',
+					date: '2018 - 2021',
 					description:
 						'I graduated with a higher technical examination in 2020. I studied mathematics, physics and computer science. I also had a focus on entrepreneurship and innovation.',
 				},

@@ -15,6 +15,7 @@ function Navigation({ setLanguage, language}) {
 	useEffect(() => {
 		console.log(location.pathname);
 		setPath(location.pathname)
+		setIsMobileMenuOpen(false);
 	}, [location]);
 
 	const toggleLanguageDropdown = () => {
