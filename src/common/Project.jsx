@@ -15,7 +15,6 @@ export default function Project({ entry }) {
 				<div className='leading-normal'><Text text={entry.description}/></div>
 				<div className='flex flex-row flex-wrap'>
 					{entry.tags.map((tag, index) => {
-						console.log(tag);
 						return(<div key={index} className='mr-2 mt-2'><SkillTag key={index} text={tag}/></div>)
 				
 					})}

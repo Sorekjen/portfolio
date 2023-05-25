@@ -13,10 +13,7 @@ export default function About() {
 	const content = useContext(PageContext)
 	const summarySection = useRef()
 
-		
-
-	console.log(content)
-	return (
+		return (
 		<div key={content.language} className='p-4 2xl:p-0'>
 			{content?.about && (
 				<>

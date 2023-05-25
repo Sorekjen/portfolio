@@ -1,5 +1,4 @@
 export default function ({ text, summarySectionRef }) {
-	console.log(summarySectionRef);
 	return (
 		<div className="mt-20 2xl:mt-0 md:p-8 2xl:p-0">
 			{text.text}

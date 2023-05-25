@@ -13,7 +13,6 @@ function Navigation({ setLanguage, language}) {
 	const navItems = useContext(PageContext).nav
 
 	useEffect(() => {
-		console.log(location.pathname);
 		setPath(location.pathname)
 		setIsMobileMenuOpen(false);
 	}, [location]);
