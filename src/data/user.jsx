@@ -31,30 +31,23 @@ export const INFO = {
 	],
 	about: {
 		hero: {
-			text: (
-				<>
-					<div className='mb-4 tracking-widest'>
-						<p>Hi, my name is</p>
-					</div>
-					<div className='font-bold text-4xl 2xl:text-6xl mb-4 h-10 2xl:h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
-						<p>Jakob Kjellerup</p>
-					</div>
-					<div className='tracking-wide font-bold text-2xl 2xl:text-4xl mb-4 2xl:mb-10'>
-						<p>
-							Full stack software engineer student with a passion for learning.
-						</p>
-					</div>
-					<div className='max-w-lg font-medium'>
-						<p>
-							Studying to become a software engineer at VIA
-							University College. Designing and building various
-							software solutions that are robust, made with the
-							best practices and where quality code, that is easy
-							to read and maintain, is a priority.
-						</p>
-					</div>
-				</>
-			),
+			intro: <p>Hi, my name is</p>,
+			name: <p>Jakob Kjellerup</p>,
+			punchline: <>Full stack software engineer student with a passion to </>,
+			summary: <p>Studying to become a software engineer at VIA
+			University College. Designing and building various
+			software solutions that are robust, made with the
+			best practices and where quality code, that is easy
+			to read and maintain, is a priority.</p>,
+			list: [
+				'learn',
+				'problemsolve',
+				'create',
+				'explore',
+				'adapt',
+				'grow',
+				'share',
+			],
 			button: 'Check me out!',
 		},
 		summary: {
@@ -312,8 +305,8 @@ export const INFO = {
 								software development lifecycle, including
 								requirements gathering, analysis, design,
 								implementation, testing, and deployment. I am
-								familiar with agile development and Scrum to ensure
-								smooth project execution and successful
+								familiar with agile development and Scrum to
+								ensure smooth project execution and successful
 								delivery.
 							</p>
 						),
@@ -502,19 +495,19 @@ export const INFO = {
 		),
 	},
 	projects: [
-
 		{
 			title: 'FugtHuset',
 			description: (
 				<p>
-					I am currently working in a team of 12 building a website for a mock company that
-					needs a system to monitor and keep track of their greenhouse
-					plants. The frontend is built using React, the backend is
-					written using NextJS and typescript and stores the data from
-					the greenhouses in a Prisma relational database. The backend
-					uses cloud hosting and a RESTful API to communicate with the
-					frontend. In addition to this the backend gets sensor data
-					from an IOT device.
+					I am currently working in a team of 12 building a website
+					for a mock company that needs a system to monitor and keep
+					track of their greenhouse plants. The frontend is built
+					using React, the backend is written using NextJS and
+					typescript and stores the data from the greenhouses in a
+					Prisma relational database. The backend uses cloud hosting
+					and a RESTful API to communicate with the frontend. In
+					addition to this the backend gets sensor data from an IOT
+					device.
 				</p>
 			),
 			logo: '2',
@@ -537,7 +530,6 @@ export const INFO = {
 			tags: ['React', 'PokeAPI'],
 			link: 'https://sorekjen.github.io/pokedex',
 		},
-
 
 		{
 			title: 'Event4U',

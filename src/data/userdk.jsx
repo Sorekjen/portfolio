@@ -33,31 +33,23 @@ export const INFODK = {
 
 	about: {
 		hero: {
-			text: (
-				<>
-					<div className='mb-4 tracking-widest'>
-						<p>Hej, mit navn er</p>
-					</div>
-					<div className='font-bold text-4xl 2xl:text-6xl mb-4 h-10 2xl:h-16 tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500'>
-						<p>Jakob Kjellerup</p>
-					</div>
-					<div className='tracking-wide font-bold text-2xl 2xl:text-4xl mb-4 2xl:mb-10'>
-						<p>
-							Full stack softwareingeniør studerende der brænder
-							for at lære.
-						</p>
-					</div>
-					<div className='max-w-lg font-medium'>
-						<p>
-							Jeg studerer til softwareingeniør på VIA University
-							College. Jeg designer og bygger forskellige
-							softwareløsninger, der er robuste og lavet med de
-							bedste praksis og hvor det er målet at have kode af
-							høj kvalitet, der er nem at læse og vedligeholde.
-						</p>
-					</div>
-				</>
-			),
+			intro: <p>Hej, mit navn er</p>,
+			name: <p>Jakob Kjellerup</p>,
+			punchline: <>Full stack softwareingeniør studerende der brænder
+			for at </>,
+			summary: <p>Jeg studerer til softwareingeniør på VIA University
+			College. Jeg designer og bygger forskellige
+			softwareløsninger, der er robuste og lavet med de
+			bedste praksis og hvor det er målet at have kode af
+			høj kvalitet, der er nem at læse og vedligeholde.</p>,
+			list: [
+				'lære',
+				'løse problemer',
+				'være kreativ',
+				'udforske',
+				'voske',
+				'dele',
+			],
 			button: 'Klik her!',
 		},
 		summary: {

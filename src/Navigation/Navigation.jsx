@@ -47,8 +47,8 @@ function Navigation({ setLanguage, language}) {
 							!isMobileMenuOpen ? 'hidden' : 'show'
 						}  transition-transform items-center justify-between align-right w-full md:flex md:w-auto md:order-1`}>
 						<ul className='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent md:dark:bg-transparent dark:border-gray-700'>
-							{navItems.map((link) => (
-								<li key={location.label}>
+							{navItems.map((link, index) => (
+								<li key={index}>
 									<NavLink link={link}  path={path} toggleMobileMenu={toggleMobileMenu}/>
 								</li>
 							))}
